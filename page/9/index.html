@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang=zh>
 <head>
-  <meta charset="utf-8">
-  
-  <title>iiitoo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="iiitoo有好多写笔记的东西">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="iiitoo有好多写笔记的东西">
 <meta property="og:type" content="website">
 <meta property="og:title" content="iiitoo">
 <meta property="og:url" content="http://blog.iiitoo.com/page/9/index.html">
@@ -14,649 +15,229 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iiitoo">
 <meta name="twitter:description" content="iiitoo有好多写笔记的东西">
-  
-    <link rel="alternate" href="/atom.xml" title="iiitoo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>iiitoo</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
 </head>
 
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">iiitoo</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">iiitoo有一个写笔记的东西</a>
-        </h2>
-      
+    
+    <div class="content index width mx-auto px2 my4">
+        
+          <header id="header">
+  <a href="/">
+  
+    
+      <div id="logo" style="background-image: url(/images/logo.png);"></div>
+    
+  
+    <div id="title">
+      <h1>iiitoo</h1>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.iiitoo.com"></form>
-      </div>
-    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fa fa-bars fa-2x"></i></a>
+      </li>
+       
+        <li><a href="/">Home</a></li>
+       
+        <li><a href="/about/">About</a></li>
+       
+        <li><a href="/archives/">Writing</a></li>
+       
+        <li><a href="http://github.com/probberechts">Projects</a></li>
+      
+    </ul>
   </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-centos6.5笔记本wifi网络配置" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/01/01/centos6.5笔记本wifi网络配置/" class="article-date">
-  <time datetime="2014-01-01T15:47:30.000Z" itemprop="datePublished">2014-01-01</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/网建随记/">网建随记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
+        <section id="about">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/01/01/centos6.5笔记本wifi网络配置/">centos6.5笔记本wifi网络配置</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>参考：转载：<a href="http://u50.cn/blog/centos-6%E4%B8%AD%E9%85%8D%E7%BD%AE-broadcom-%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1#comment-60259" target="_blank" rel="external">http://u50.cn/blog/centos-6%E4%B8%AD%E9%85%8D%E7%BD%AE-broadcom-%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1#comment-60259</a></p>
-<p>有一台老的 dell&#160;1400 笔记本，速度已经跟不上时代了，闲置下来。</p>
-<p>拿它来做一个服务器，用于自己网站建设测试。</p>
-<p>前面网卡驱动配置与参考文件不一样，再说，每个人电脑的网卡不同，就没有写出。无线上网，全靠下面引用的文章。</p>
-<p>现在网卡配置好了，下一个任务是连接 WIFI 并在开机时启动</p>
-<p>参考文档：<a href="http://www.pantz.org/software/wpa_supplicant/wirelesswpa2andlinux.html" title="http://www.pantz.org/software/wpa_supplicant/wirelesswpa2andlinux.html" target="_blank" rel="external">http://www.pantz.org/software/wpa_supplicant/wirelesswpa2andlinux.html</a></p>
-<p>&#160;</p>
-<p><strong>1. 找 wifi 热点</strong></p>
-<blockquote>
-<p>sudo iwlist scan</p>
-</blockquote>
-<p><strong>2. 生成热点的配置（wpa2加密）</strong></p>
-<blockquote>
-<p>sudo wpa_passphrase &lt;wifi热点名称&gt; &lt;wpa密码&gt;</p>
-</blockquote>
-<p>会生成这样格式的配置代码：</p>
-<blockquote>
-<p>network={&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ssid=&quot;SSID_xxx&quot;&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; #psk=&quot;your_pass_here&quot;&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; psk=eb900177d2234487397b54f1fc1d6efc7f30e43b988ad21488ae3eb701a1g3b0&#160;</p>
-<p>}</p>
-</blockquote>
-<p>将这段代码添加到 /etc/wpa_supplicant/wpa_supplicant.conf 文件中：</p>
-<blockquote>
-<p>ctrl_interface=/var/run/wpa_supplicant&#160;</p>
-<h1 id="ctrl-interface-group-wheel"><a href="#ctrl-interface-group-wheel" class="headerlink" title="ctrl_interface_group=wheel"></a>ctrl_interface_group=wheel</h1><p>network={&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ssid=&quot;SSID_xxx&quot;&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; #psk=&quot;your_pass_here&quot;&#160;</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; psk=eb900177d2234487397b54f1fc1d6efc7f30e43b988ad21488ae3eb701a1g3b0&#160;</p>
-<p>}</p>
-</blockquote>
-<p>配置就完成了，下面添加启动代码</p>
-<p><strong>3. 在 /etc/rc.local 中添加相应的 wifi 启动代码：</strong></p>
-<blockquote>
-<p>pkill wpa_supplicant&#160;</p>
-<p>pkill dhclient</p>
-<p>ifconfig wlan0 down&#160;</p>
-<p>ifconfig wlan0 up&#160;</p>
-<p>iwconfig wlan0 essid &quot;SSID_xxx&quot;&#160;</p>
-<p>wpa_supplicant -B -Dwext -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf</p>
-<p>dhclient wlan0</p>
-</blockquote>
-<p>现在重启系统，无线网络就会配置好了</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2014/01/01/centos6.5笔记本wifi网络配置/" data-id="cj252ngzh00099h9kgq5kiv2q" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
+    <p>iiitoo有好多写笔记的东西</p>
 
   
-    <article id="post-中国的泰坦尼克号" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/12/05/中国的泰坦尼克号/" class="article-date">
-  <time datetime="2013-12-05T11:59:11.000Z" itemprop="datePublished">2013-12-05</time>
-</a>
+  <p style="display: inline">
     
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/未分类/">未分类</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      Find me on
+      <ul id="sociallinks">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/12/05/中国的泰坦尼克号/">中国的泰坦尼克号</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>游轮驶向茫茫大海，人们</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/12/05/中国的泰坦尼克号/" data-id="cj252nh08000w9h9k6x9ce1h2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-叫魂" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/11/21/叫魂/" class="article-date">
-  <time datetime="2013-11-21T12:01:24.000Z" itemprop="datePublished">2013-11-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/补忆/">补忆</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <li><a class="icon" target="_blank" href="http://github.com/probberechts/cactus-dark" title="github"><i class="fa fa-github"></i></a></li>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/11/21/叫魂/">叫魂</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160;在老家时有种叫魂的巫术。就是如果感觉自己的家人和自己有点精气神不足，就可以请巫术高强的巫师帮忙叫回自己的魂魄。有时也叫不回来，这主要看举行完这样的法事之后，这个人到底是不是有了精气神。我有幸做过一回这样的丢魂人。</p>
-<p>&#160; &#160;&#160;<span style="line-height: 1.6em;">傍晚，刚刚从别处玩饿了，回家吃饭。一进家门，就感觉气氛不像往常。原来是家中有客了，一个不认识的客人和一个庄里很有威望的法师正在正房的炕上和我的家人聊天。家里的女人们就和往常有客人来家里一样忙碌着。因为饿或者总喜欢和妈妈、奶奶待在一起就直接去了厨房，她们一见我，眼神中带有神秘。我没多问，就随手拿了几样熟食吃去了。我知道，如果要解开这个神秘，就必须大着胆子到那群男人中打探消息。大着胆子战战兢兢来到正房，靠着门柱，等着别人的招呼。不出所料，来了一句，</span></p>
-<p>&#160; &#160;&#160;<span style="line-height: 1.6em;">&#8220;快进来啊，靠着门跟要饭的一样。&#8221;父亲很严厉的这样说。</span></p>
-<p>&#160; &#160;&#160;<span style="line-height: 1.6em;">转头从严肃的神情变为了笑脸又和这群男人聊天。我得到了招呼，心满意足的远远的坐到旁边听着他们的各种奇幻的故事。也听出了一点好像与我有关的事，就是我不小心把魂给丢了的事。心理总有许多说不出的感觉，可能是一种自责。我老丢东西，每次丢东西小则被训，大则被打。这次丢了个这么个东西，又不是东西的东西。总怕被打，又觉得冤枉。要说冤枉也没用，从前不小心丢的东西，也照样被训。但是此时，我并不怕训，因为有这么多陌生人为我撑腰。</span></p>
-<p>&#160; &#160;似懂非懂的论坛中听出人的灵魂的神奇。当然越是听神奇的事情，时间过得也是越快，终于到了实际操作的时候。今天，我是主角。一仗黄布把我围在炕角平躺，然后好像用另一种颜色的布从头到脚把我遮住，因为自己紧张忘了当时是用什么布蒙住我的；也因为紧张，我悄悄的一动不动的躺着。我只能用听觉去了解我周围的一切。法师一会敲打着房子里敲起来最响的东西，还叫着我反正一句没听懂的天语。各种吵闹后，平静好久。然后，听到院子里又是一片乱叫，时而还听到我家的男人们叫喊着我的名字。我知道这不是我的名字，这是我的魂的名字，就一动不动的躺着。也许是从前面的故事中得到了心得吧，此时没有我，只有我的魂。后来，走到我身旁不知何人，往我胸口放了一件东西，当时感觉有点难受。第二天一问，得知只是一个竹篮。立马就回到炕上，对法师从敬畏提升到了敬重。法师去掉胸上的东西后，一下感觉轻飘了好的，如升天。从法师的声音和敲打声慢慢变小，应该是收尾了吧。卸掉围帐，揭开蒙住脸的布。顿时，豁然开朗，如获新生。女人躲在偏房里偷看，男人对着高堂各种磕头作揖。主人和客人寒暄着要回自己家的话，好久才达到目的。</p>
-<p>&#160; &#160;</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/11/21/叫魂/" data-id="cj252nh1a001y9h9k2learoue" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-同事" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/11/09/同事/" class="article-date">
-  <time datetime="2013-11-09T05:35:13.000Z" itemprop="datePublished">2013-11-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/小文/">小文</a>►<a class="article-category-link" href="/categories/小文/异变/">异变</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <li><a class="icon" target="_blank" href="/" title="twitter"><i class="fa fa-twitter"></i></a></li>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/11/09/同事/">同事</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>太多的事，你们这些刚刚步入社会的人都太在乎了。<br>和每一个人都一样，他来到了这个没有人烟的戈壁滩上，对这样的一切只是排斥。奔土飞石的荒野，一眼望去便是天地之间的一线，有沙土，有狂风，有太阳，还有月亮。这一切当置身于此时，又在自己身上增添了恐惧。<br>有的人在恐惧中生活了40年、30年、20年、10年，5年、2年、12个月，还有今天刚刚来的他。有的人将自己置身于恐惧的一部分来吓唬自己和那些在恐惧中的人。人身上的美丽和丑陋都被放大，此时的他看到的总是丑多余美。吓的微低的头，黑眼珠总是一半，另一半藏在眼眶里。就这样，还用剩下的一半寻找自己身子的藏身之处。找不到时，是神给他了力量去勇敢的面对这样的恐惧。<br>嘶吼的机器只能让他显得刚刚像来到世间一样的无力，就连自己哇哇大哭的心灵被这样的声音所覆盖。关上房门，躲在窗后，偷偷用剩下勇气窥视这吼叫的东西。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/11/09/同事/" data-id="cj252nh1e00229h9kazjf6mqy" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/工作，情感/">工作，情感</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-碗" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/11/09/碗/" class="article-date">
-  <time datetime="2013-11-09T05:32:56.000Z" itemprop="datePublished">2013-11-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/小文/">小文</a>►<a class="article-category-link" href="/categories/小文/异变/">异变</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <li><a class="icon" target="_blank" href="/" title="facebook"><i class="fa fa-facebook"></i></a></li>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/11/09/碗/">碗</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>头顶飞沙，微微弯曲的身子横着想避开来袭的大风，提着一个刚刚吃完饭的铁皮盆去洗，走到洗衣房门口，不知从何处来的怒气无法释放，只有这手中的“碗”便向地上摔去，可能是没有达到想要的那种扁平效果，就冲到碗旁用钢包头的工鞋连踩数脚才心满意足。像一位疯狂艺术家一样完成了他的作品，走开了。</p>
-<p>工作！他不想干的这个工作，还为了这样一个工作吃着方便面。哦！不对，方便面也许太贵，买上一个电饭锅熬一熬挂面，满足一下吃饭的过程吧，证明一下他还是一个人，有正常吃饭的需求。一日一到两餐，一日一日一日的慢慢走向迷茫的夜里。哪里有我们看到的绚丽星空，他没有这样的感受，因为他没有经历过我们所看到的美丽夜空。</p>
-<p>摔完了碗，不用在吃破饭洗破碗了，如释重负。回到了房间低声下气的到别人旁边要上一根香烟，优雅的点着，又像一位伟大的思想家一样举起了低了半天的头，思考着。其实自己已飘到了天上。</p>
-<p>“快去上班去！”</p>
-<p>没有理，一下翻起身来。大步流星的狂奔在荒滩上，奔向那个不远的高塔。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/11/09/碗/" data-id="cj252nh4c006b9h9kbetk6tpe" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/异变，生活，工作/">异变，生活，工作</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-礼上情在" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/10/31/礼上情在/" class="article-date">
-  <time datetime="2013-10-31T07:41:22.000Z" itemprop="datePublished">2013-10-31</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/小记/">小记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <li><a class="icon" target="_blank" href="/" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/31/礼上情在/">礼上情在</a>
-    </h1>
-  
-
-      </header>
+      </ul>.
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>躺在卧铺车厢中，如睡针毡啊！时时再说别人对自己的不好，而到了自己身上，总是对别人一般。这点道理我应该去懂。若连这些都不知道，怎么去做别的我想做的事情？<br>用自己好像是人的方式去炫耀，当把皮拔掉看到的是无知与冷酷，幼稚当然不能永远这么幼稚。若自己是一个艺术家，别人倒是可以原谅，但是自己又不是艺术家。也不能谈原谅之说，应该说的是以后的应对之策。修改，没有定型的修改。<br>我此时，在坐火车，我应该做什么？我明天要上班我应该做什么？未来我在计划，计划了，我该做什么？这样的一切只有一个勤快上说话，一个亲近上说话。人情关，是我要过的一大关，若过了。我才能考虑我该干什么。<br>勤快，不在自私。早起为了自己开始锻炼，上班积极，对人和善。尊老爱幼。这些道理都是十分简单又不破</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/10/31/礼上情在/" data-id="cj252nh4e006d9h9kfq9iszyk" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-爱国" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/10/25/爱国/" class="article-date">
-  <time datetime="2013-10-25T04:31:24.000Z" itemprop="datePublished">2013-10-25</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/小文/">小文</a>►<a class="article-category-link" href="/categories/小文/异变/">异变</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/25/爱国/">爱国</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <div class="userName" rel="YI-art" style="margin: 0px; padding: 0px; height: 23px; font-size: 14px; line-height: 23px; color: rgb(153, 153, 153); font-family: Tahoma, Arial, sans-serif;"><br><span style="padding-right: 5px;"><a href="http://t.qq.com/YI-art" title="iiitoo(@YI-art)" target="_blank" rel="external">iiitoo</a></span><br></div>
-
-<div class="msgCnt" style="margin: 0px; padding: 0px; font-size: 14px; overflow: hidden; word-wrap: break-word; font-family: Tahoma, Arial, sans-serif; line-height: 23px;"><br>爱国？一个伤人的词汇，谁知道爱国者的下场应该如何，谁能保证爱国者不被自己人所利用，或者默视。不是中国人本身的问题，只是这千百年教导我们的方式只能让我们去一次次的彰显奴性。还是重视文化吧！让每个人拥有自己的精神食粮。还是教育吧！让每个人知道荣辱吧！那时再谈爱国，再谈中国人。<br></div>
-
-<div class="replyBox bgr3" style="margin: 10px 0px; padding: 0px; border: 1px solid rgb(240, 240, 240); background-color: rgb(248, 248, 248); line-height: 19px; clear: both; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-family: Tahoma, Arial, sans-serif;"><br><div class="msgBox" style="margin: 0px; padding: 10px 0px 12px; overflow: hidden; word-wrap: break-word;"><br><div class="msgCnt" style="margin: 0px 20px 1px; padding: 0px; font-size: 14px; overflow: hidden; word-wrap: break-word; color: rgb(68, 68, 68); line-height: 23px !important;"><br><span style="color: rgb(153, 153, 153); padding-right: 5px;"><a href="http://t.qq.com/yuyi8855" target="_blank" rel="external">海君</a></span><br><br><div style="margin: 0px; padding: 0px;"><br>《日本人眼中的中国人》：近期，安倍授权日军击落日本国认为侵入属于自己海域的…&#160;<a href="http://k.t.qq.com/k/%E9%95%BF%E5%BE%AE%E5%8D%9A" target="_blank" rel="external">#长微博#</a><a href="http://url.cn/SwUJbN?u=YI-art&amp;t=255899093182033&amp;msgfrom=1865&amp;area=msgtext&amp;clickfrom=3&amp;clickscene=homepage" target="_blank" rel="external">http://url.cn/SwUJbN</a><br></div><br></div>
-
-<div class="orderWrap lc_rich_wp cur_auto2" style="margin: 0px; padding: 0px; cursor: auto; background-image: none; border-width: 1px 0px 0px; border-top-style: solid; border-top-color: rgb(227, 227, 227); clear: both; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;"><br><div class="orderDetail lc_rich_in bor_bg" iframetype="15" style="margin: 0px; padding: 15px 20px 0px; border-color: rgb(250, 250, 250); overflow: hidden;"><br><div class="rich_min" style="margin: 0px; padding: 0px;"><br><div class="rich_longwb_box clear" style="margin: 0px; padding: 0px;"><br><span class="pic" style="position: relative; display: block; float: left;"><img src="http://t2.qpic.cn/mblogpic/a49ef7010a25d50dacc8/160/160" alt=""></span><br></div><br></div><br></div><br></div><br></div><br></div>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/10/25/爱国/" data-id="cj252nh40005z9h9ksmx4kqjf" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-自私" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/10/21/自私/" class="article-date">
-  <time datetime="2013-10-21T06:12:00.000Z" itemprop="datePublished">2013-10-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/异变/">异变</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/21/自私/">自私</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>自私让我和你烧伤了脑袋，原本的真相让我扭曲，才让你嘲笑。用我的扭曲描述博得你的欢喜，伤害了他对他的心。他又用自私的心报复我，扭曲和嘲笑偷偷的来到了他和他。我的流血的心只是一颗复仇的种子，你得意洋洋，听着他的扭曲嘲笑着我。<br>叮叮呛呛声，不绝于耳。昏昏沉沉中天地交融。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/10/21/自私/" data-id="cj252nh5a007a9h9kg06uwnc4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-理想" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/10/21/理想/" class="article-date">
-  <time datetime="2013-10-21T06:11:45.000Z" itemprop="datePublished">2013-10-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/异变/">异变</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/21/理想/">理想</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; 秋天的苍蝇在电脑旁嗡嗡的飞来飞去，吸收着cpu发出的热量。他也是，好像在电脑旁边格外暖和一样，虽然没有嗡嗡的飞来飞去，但有讨厌的键盘敲打声，打扰着我们这些看电视的无法入眠。活着不就一个忍让嘛，所以大家都对这个新来的家伙讨厌又不能说什么。在仔细瞧瞧，虽然没有起来锅一样的驼背，但是好像要把颈椎折断顶出来一样，样子确实吓人。</p>
-        
-          <p class="article-more-link">
-            <a href="/2013/10/21/理想/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/10/21/理想/" data-id="cj252nh4500649h9kb6ai7r70" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/为了理想/">为了理想</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/异变/">异变</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/扭曲/">扭曲</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-算一算" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2013/10/16/算一算/" class="article-date">
-  <time datetime="2013-10-16T10:56:18.000Z" itemprop="datePublished">2013-10-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/小记/">小记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/16/算一算/">算一算</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>算一算自己到底有多长时间，能做多少事。</p>
-<p>在算之前，要把&#8220;做事&#8221;这个词量化一下。大多数人把做的事用金钱来量化，这确实是一个不错的量化方式。但是也有不能用金钱量化的可能。比如各种高技术手段，像 贩毒、卖淫、走私军火，富二代&#8230;&#8230;这些事好多人都办不了，所以说金钱去量化在我今天要算的是比较不准确的。那么我么就拿经历来量化吧，，或者用时间也可以。</p>
-<p>不绕弯子了，假如去旅游，一生都在旅游，没有生存压力。自己能好好活70岁（70x365），每个地方要待30天，我们就有851个地方能去。除去皮800个地方，在这800个地方，最少要用500个地方的时间去成长，工作，生病，养老。这么一说，我们就剩下300个地方可以去。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.iiitoo.com/2013/10/16/算一算/" data-id="cj252nh4m006l9h9kid5z9nkh" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-  <nav id="page-nav">
-    <a class="extend prev" rel="prev" href="/page/8/">&laquo; __('prev')</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/10/">__('next') &raquo;</a>
-  </nav>
+  </p>
 </section>
+
+<section id="writing">
+  <span class="h1"><a href="/archives">Writing</a></span>
+  <ul class="post-list">
+    
+      
+    
+    
+      <li class="post-item">
         
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/孩子王/">孩子王</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小思/">小思</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/小思/小记/">小记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小思/异变/">异变</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小思/美思/">美思</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/小文/">小文</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/小文/小记/">小记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小文/小诗/">小诗</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小文/异变/">异变</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小文/补忆/">补忆</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/小记/">小记</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/小记/未分类/">未分类</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/小诗/">小诗</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/小转/">小转</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/异变/">异变</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/未分类/">未分类</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/油画技法/">油画技法</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/网建随记/">网建随记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/美思/">美思</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/补忆/">补忆</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/闲谈/">闲谈</a></li></ul>
+    <div class="meta">
+        <time datetime="2017-04-30T16:04:47.000Z" itemprop="datePublished">2017-05-01</time>
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/WordPress/">WordPress</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/为了理想/">为了理想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/主流/">主流</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/伊索，自感，评述，/">伊索，自感，评述，</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/公平/">公平</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/回家/">回家</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/工作，情感/">工作，情感</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/异变/">异变</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/异变，生活，工作/">异变，生活，工作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/我/">我</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/我与世界/">我与世界</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/我爱你/">我爱你</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/扭曲/">扭曲</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/找餐车/">找餐车</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/旅途/">旅途</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/朋友/">朋友</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/眼皮厚/">眼皮厚</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/神经病无正常人的故事/">神经病无正常人的故事</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/绘画/">绘画</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/网站建设/">网站建设</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/自我/">自我</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/规则/">规则</a></li></ul>
+        <a class="" href="/2017/05/01/hello-world/">Hello World</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2017-04-21T17:28:56.000Z" itemprop="datePublished">2017-04-22</time>
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/WordPress/" style="font-size: 10px;">WordPress</a> <a href="/tags/为了理想/" style="font-size: 10px;">为了理想</a> <a href="/tags/主流/" style="font-size: 10px;">主流</a> <a href="/tags/伊索，自感，评述，/" style="font-size: 10px;">伊索，自感，评述，</a> <a href="/tags/公平/" style="font-size: 10px;">公平</a> <a href="/tags/回家/" style="font-size: 10px;">回家</a> <a href="/tags/工作，情感/" style="font-size: 10px;">工作，情感</a> <a href="/tags/异变/" style="font-size: 10px;">异变</a> <a href="/tags/异变，生活，工作/" style="font-size: 10px;">异变，生活，工作</a> <a href="/tags/我/" style="font-size: 10px;">我</a> <a href="/tags/我与世界/" style="font-size: 10px;">我与世界</a> <a href="/tags/我爱你/" style="font-size: 10px;">我爱你</a> <a href="/tags/扭曲/" style="font-size: 10px;">扭曲</a> <a href="/tags/找餐车/" style="font-size: 10px;">找餐车</a> <a href="/tags/旅途/" style="font-size: 10px;">旅途</a> <a href="/tags/朋友/" style="font-size: 10px;">朋友</a> <a href="/tags/眼皮厚/" style="font-size: 10px;">眼皮厚</a> <a href="/tags/神经病无正常人的故事/" style="font-size: 10px;">神经病无正常人的故事</a> <a href="/tags/绘画/" style="font-size: 10px;">绘画</a> <a href="/tags/网站建设/" style="font-size: 10px;">网站建设</a> <a href="/tags/自我/" style="font-size: 10px;">自我</a> <a href="/tags/规则/" style="font-size: 10px;">规则</a>
+        <a class="" href="/2017/04/22/消费/">消费</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2017-04-21T17:05:14.000Z" itemprop="datePublished">2017-04-22</time>
     </div>
-  </div>
 
-  
+
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">五月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">四月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">十一月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">四月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">五月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">三月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">十一月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">十月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">九月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">三月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">一月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">十二月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">十一月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">十月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">六月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">五月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">四月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">三月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">二月 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">九月 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/05/">五月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/04/">四月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/03/">三月 2009</a></li></ul>
+        <a class="" href="/2017/04/22/靠的时间已过/">靠的时间已过</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2017-01-21T08:10:50.000Z" itemprop="datePublished">2017-01-21</time>
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
+        <a class="" href="/2017/01/21/石器时代的美术/">石器时代的美术</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2016-12-29T17:32:28.000Z" itemprop="datePublished">2016-12-30</time>
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2016/12/30/释怀/">释怀</a>
+    
+
+
+</span>
+      </li>
+    
+  </ul>
+  
+</section>
+
+
+
+    </div>
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 iiitoo
+  </div>
+  <div class="footer-right">
+    <nav>
       <ul>
-        
-          <li>
-            <a href="/2017/05/01/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2017/04/22/消费/">消费</a>
-          </li>
-        
-          <li>
-            <a href="/2017/04/22/靠的时间已过/">靠的时间已过</a>
-          </li>
-        
-          <li>
-            <a href="/2017/01/21/石器时代的美术/">石器时代的美术</a>
-          </li>
-        
-          <li>
-            <a href="/2016/12/30/释怀/">释怀</a>
-          </li>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/probberechts">Projects</a></li>
         
       </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 iiitoo<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
+    </nav>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
 </body>
 </html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+<link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-86660611-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+
