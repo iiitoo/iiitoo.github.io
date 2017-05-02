@@ -1388,5 +1388,5 @@ pre code {
 }
 /*翻译about中的“and”*/
 #sociallinks li:nth-last-child(2):after {
-  content: "和";
+  content: " 和";
 }
