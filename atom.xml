@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iiitoo</title>
+  <subtitle>iiitoo有一个写笔记的东西</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.iiitoo.com/"/>
+  <updated>2017-05-03T14:51:56.000Z</updated>
+  <id>https://blog.iiitoo.com/</id>
+  
+  <author>
+    <name>iiitoo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cactus Dark 说明</title>
+    <link href="https://blog.iiitoo.com/2017/05/04/README/"/>
+    <id>https://blog.iiitoo.com/2017/05/04/README/</id>
+    <published>2017-05-03T16:01:00.000Z</published>
+    <updated>2017-05-03T14:51:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Cactus-Dark"><a href="#Cactus-Dark" class="headerlink" title="Cactus Dark"></a>Cactus Dark</h1><p>A responsive, dark and simple <a href="http://hexo.io" target="_blank" rel="external">Hexo</a> theme for a personal website.</p>
+<p>:cactus: <a href="https://probberechts.github.io/cactus-dark/" target="_blank" rel="external">Demo</a></p>
+<p><img src="https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png" alt="cactus-dark"></p>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><ul>
+<li><a href="#general">General</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#install">Install</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><ul>
+<li><strong>Version</strong> : 2.0</li>
+<li><strong>Compatibility</strong> : Hexo 3 or later</li>
+</ul>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Fully responsive</li>
+<li>Disqus</li>
+<li>Googe analytics</li>
+<li>Font Awesome icons</li>
+<li>Pick your own code highlighting scheme</li>
+<li>Configurable navigation menu</li>
+<li>Projects list</li>
+<li>Simplicity</li>
+</ul>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><ol>
+<li><p>In the <code>root</code> directory:</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git clone https://github.com/probberechts/cactus-dark.git themes/cactus-dark</div><div class="line">$ npm install hexo-pagination --save</div></pre></td></tr></table></figure>
+</li>
+<li><p>Change the <code>theme</code> property in the <code>config.yml</code> file.</p>
+ <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># theme: landscape</span></div><div class="line"><span class="attr">theme:</span> <span class="string">cactus-dark</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>Run: <code>hexo generate</code> and <code>hexo server</code></p>
+</li>
+</ol>
+<h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><h3 id="Navigation"><a href="#Navigation" class="headerlink" title="Navigation"></a>Navigation</h3><p>Setup the navigation menu in the theme’s <code>_config.yml</code>:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">nav:</div><div class="line">  Home: /</div><div class="line">  About: /about/</div><div class="line">  Writing: /archives/</div><div class="line">  Projects: http://github.com/probberechts</div><div class="line">  LINK_NAME: URL</div></pre></td></tr></table></figure>
+<h3 id="Blog-posts-list-on-home-page"><a href="#Blog-posts-list-on-home-page" class="headerlink" title="Blog posts list on home page"></a>Blog posts list on home page</h3><p>You have two options for the list of blog posts on the home page:</p>
+<ul>
+<li><p>Show only the 5 most recent posts (default)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">customize:</div><div class="line">  show_all_posts: false</div><div class="line">  post_count: 5</div></pre></td></tr></table></figure>
+</li>
+<li><p>Show all posts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">customize:</div><div class="line">  show_all_posts: true</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="Projects-list"><a href="#Projects-list" class="headerlink" title="Projects list"></a>Projects list</h3><p>Create a projects file <code>source/_data/projects.json</code>.</p>
+  <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">[</div><div class="line">    &#123;</div><div class="line">       <span class="attr">"name"</span>:<span class="string">"Hexo"</span>,</div><div class="line">       <span class="attr">"url"</span>:<span class="string">"https://hexo.io/"</span>,</div><div class="line">       <span class="attr">"desc"</span>:<span class="string">"A fast, simple &amp; powerful blog framework"</span></div><div class="line">    &#125;,</div><div class="line">    &#123;</div><div class="line">       <span class="attr">"name"</span>:<span class="string">"Font Awesome"</span>,</div><div class="line">       <span class="attr">"url"</span>:<span class="string">"http://fontawesome.io/"</span>,</div><div class="line">       <span class="attr">"desc"</span>:<span class="string">"The iconic font and CSS toolkit"</span></div><div class="line">    &#125;</div><div class="line">]</div></pre></td></tr></table></figure>
+<h3 id="Social-media-links"><a href="#Social-media-links" class="headerlink" title="Social media links"></a>Social media links</h3><p>Cactus Dark can automatically add links to your social media accounts. Therefore, update the theme’s <code>_config.yml</code>:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">customize:</div><div class="line">  social_links:</div><div class="line">    github: your-github-url</div><div class="line">    twitter: your-twitter-url</div><div class="line">    NAME: your-NAME-url</div></pre></td></tr></table></figure>
+<p>where <code>NAME</code> is the name of a <a href="http://fontawesome.io/icons/#brand" target="_blank" rel="external">Font Awesome icon</a>.</p>
+<h3 id="RSS"><a href="#RSS" class="headerlink" title="RSS"></a>RSS</h3><p>Set the <code>rss</code> field in the theme’s <code>_config.yml</code> to one of the following values:</p>
+<ol>
+<li><code>rss: false</code> will totally disable rss (default).</li>
+<li><code>rss: atom.xml</code> sets a specific feed link.</li>
+<li><code>rss:</code>leave empty to use the <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a> plugin.</li>
+</ol>
+<h3 id="Analytics"><a href="#Analytics" class="headerlink" title="Analytics"></a>Analytics</h3><p>Add you Google Analytics <code>tracking_id</code> to the theme’s <code>_config.yml</code>.</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">    gooogle_analytics: &apos;UA-49627206-1&apos;            # Format: UA-xxxxxx-xx</div></pre></td></tr></table></figure>
+<h3 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h3><p>First, create a site on Disqus: <a href="http://disqus.com/admin/create/" target="_blank" rel="external">https://disqus.com/admin/create/</a>.</p>
+<p>Next, update the theme’s <code>_config.yml</code> file:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">    disqus_shortname: SITENAME</div></pre></td></tr></table></figure>
+<p>where <code>SITENAME</code> is the name you gave your site on Disqus.</p>
+<h3 id="Code-Highlighting"><a href="#Code-Highlighting" class="headerlink" title="Code Highlighting"></a>Code Highlighting</h3><p>Pick one of <a href="https://github.com/probberechts/cactus-dark/tree/master/source/css/_highlight" target="_blank" rel="external">the available colorschemes</a> and add it to the theme’s <code>_config.yml</code>:</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">customize:</div><div class="line">    highlight: COLORSCHEME_NAME</div></pre></td></tr></table></figure>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Cactus-Dark&quot;&gt;&lt;a href=&quot;#Cactus-Dark&quot; class=&quot;headerlink&quot; title=&quot;Cactus Dark&quot;&gt;&lt;/a&gt;Cactus Dark&lt;/h1&gt;&lt;p&gt;A responsive, dark and simple &lt;a h
+    
+    </summary>
+    
+      <category term="网建随记" scheme="https://blog.iiitoo.com/categories/%E7%BD%91%E5%BB%BA%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="https://blog.iiitoo.com/2017/05/02/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>https://blog.iiitoo.com/2017/05/02/关于我/</id>
+    <published>2017-05-02T03:39:41.000Z</published>
+    <updated>2017-05-03T14:30:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我"><a href="#我" class="headerlink" title="我"></a>我</h2><p>我就叫个张毅<br>我很随意<br>邋遢<br>无聊<br>无趣<br>只要是我周围女士喜欢的我都不喜欢，所有！🙃🙃女孩子们都不喜欢我。男士呢？我不搞基，但是这个世界除了女人就是男人，时间久了，就会有那么一些“基”味！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;我&quot;&gt;&lt;a href=&quot;#我&quot; class=&quot;headerlink&quot; title=&quot;我&quot;&gt;&lt;/a&gt;我&lt;/h2&gt;&lt;p&gt;我就叫个张毅&lt;br&gt;我很随意&lt;br&gt;邋遢&lt;br&gt;无聊&lt;br&gt;无趣&lt;br&gt;只要是我周围女士喜欢的我都不喜欢，所有！🙃🙃女孩子们都不喜欢我。男士呢？
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>加我的微信</title>
+    <link href="https://blog.iiitoo.com/2017/05/01/%E5%8A%A0%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1/"/>
+    <id>https://blog.iiitoo.com/2017/05/01/加我的微信/</id>
+    <published>2017-04-30T20:46:26.000Z</published>
+    <updated>2017-04-30T21:07:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>这是我的个人微信，扫一下！就加上了！
+</code></pre><p><img src="http://ww4.sinaimg.cn/large/006tNc79ly1ff5e6tmxrxj30iq0owwg3.jpg" alt=""></p>
+<pre><code>加上了，我们就能做朋友了！！
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;这是我的个人微信，扫一下！就加上了！
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006tNc79ly1ff5e6tmxrxj30iq0owwg3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.iiitoo.com/2017/05/01/hello-world/"/>
+    <id>https://blog.iiitoo.com/2017/05/01/hello-world/</id>
+    <published>2017-04-30T16:04:47.000Z</published>
+    <updated>2017-04-30T16:04:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>消费</title>
+    <link href="https://blog.iiitoo.com/2017/04/22/%E6%B6%88%E8%B4%B9/"/>
+    <id>https://blog.iiitoo.com/2017/04/22/消费/</id>
+    <published>2017-04-21T17:28:56.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>小黄爸妈挣得钱给小黄上了学，后来上高中上大学都是小黄爸妈贡小黄上的。</p>
+<p>小黄毕业了，小黄爸妈总是说，小黄花了我们好多钱。哎吆！把我们花的怕怕的了，这个娃娃怎么这么能花钱。</p>
+<p>在小黄看来，他并没有多花父母的一分钱。他认为这是他父母自己的一次消费。</p>
+<p>孝子们和败家子会有什么说法？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小黄爸妈挣得钱给小黄上了学，后来上高中上大学都是小黄爸妈贡小黄上的。&lt;/p&gt;
+&lt;p&gt;小黄毕业了，小黄爸妈总是说，小黄花了我们好多钱。哎吆！把我们花的怕怕的了，这个娃娃怎么这么能花钱。&lt;/p&gt;
+&lt;p&gt;在小黄看来，他并没有多花父母的一分钱。他认为这是他父母自己的一次消费。&lt;/p
+    
+    </summary>
+    
+      <category term="未分类" scheme="https://blog.iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>靠的时间已过</title>
+    <link href="https://blog.iiitoo.com/2017/04/22/%E9%9D%A0%E7%9A%84%E6%97%B6%E9%97%B4%E5%B7%B2%E8%BF%87/"/>
+    <id>https://blog.iiitoo.com/2017/04/22/靠的时间已过/</id>
+    <published>2017-04-21T17:05:14.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>实实的30岁了！我是多么不希望它的出现，我是多么讨厌这个数字出现在我的生日里，因为我用了三十年等待着那个靠的的人，有的人口口声声在别人跟前说我在靠他，但是谁知道那是不是借口呢！所以，等了三十年了，也没有等到，那就不要等了。</p>
+<p>也许，从此以后我的起步低到我害怕的地步，但是我已经30了，我应该面对；也许，和别人比起来我在社会中就是一个傻逼，我会蠢到连我自己都害怕的地步，但是我已三十，我应该让自己变化，最少也是掩饰一下我的愚蠢；又可能有很多害怕的东西，我还不是要去面对，还是那句话，我已三十。</p>
+<p>等着盼着的那些东西，就像鱼饵一样，散发着的那些味道，迷惑着你昏头昏脑的，那种被诱惑的冲动，会让自己丧失理智，陷入迷茫。那么现在三十了。我不能把剩下的一半时间去追求鱼饵吧！我要离开鱼饵，我要自己去寻觅，不管遇到什么，我应该准备好了吧！如果没有，那我应该在去准备一段时间，就上路。把懒腿砍掉，榨出油水，做成干粮，准备上路。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 路上还需要伴侣吗？不需要，谁知道那是不是累赘？假如不是，我会把她看成累赘。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实实的30岁了！我是多么不希望它的出现，我是多么讨厌这个数字出现在我的生日里，因为我用了三十年等待着那个靠的的人，有的人口口声声在别人跟前说我在靠他，但是谁知道那是不是借口呢！所以，等了三十年了，也没有等到，那就不要等了。&lt;/p&gt;
+&lt;p&gt;也许，从此以后我的起步低到我害怕的地
+    
+    </summary>
+    
+      <category term="闲谈" scheme="https://blog.iiitoo.com/categories/%E9%97%B2%E8%B0%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>石器时代的美术</title>
+    <link href="https://blog.iiitoo.com/2017/01/21/%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BE%8E%E6%9C%AF/"/>
+    <id>https://blog.iiitoo.com/2017/01/21/石器时代的美术/</id>
+    <published>2017-01-21T08:10:50.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>石器时代？？</p>
+<p>考古学把文明出现前的称为石器时代。</p>
+<p>分为旧石器时代和新石器时代</p>
+<ul>
+<li><p>旧石器时代：在这个时代中主要以打制石器为人类的生产工具；</p>
+</li>
+<li><p>新石器时代：主要以磨制石器和陶器为人类的生产工具。</p>
+</li>
+</ul>
+<hr>
+<p>距今约180万年，中国进入旧石器时代，在发展过程中滋生出美的意识。到了旧石器晚期，脱离了实用目的的装饰和绘画出现。</p>
+<hr>
+<h2 id="旧石器时代的美术"><a href="#旧石器时代的美术" class="headerlink" title="旧石器时代的美术"></a>旧石器时代的美术</h2><h3 id="美术的起源"><a href="#美术的起源" class="headerlink" title="美术的起源"></a>美术的起源</h3><h3 id="美术的早期形态"><a href="#美术的早期形态" class="headerlink" title="美术的早期形态"></a>美术的早期形态</h3><h2 id="新石器时代的美术"><a href="#新石器时代的美术" class="headerlink" title="新石器时代的美术"></a>新石器时代的美术</h2><h3 id="陶塑与泥塑"><a href="#陶塑与泥塑" class="headerlink" title="陶塑与泥塑"></a>陶塑与泥塑</h3><h3 id="石、玉雕刻"><a href="#石、玉雕刻" class="headerlink" title="石、玉雕刻"></a>石、玉雕刻</h3><h2 id="新石器时代的绘画"><a href="#新石器时代的绘画" class="headerlink" title="新石器时代的绘画"></a>新石器时代的绘画</h2><h3 id="彩陶装饰绘画"><a href="#彩陶装饰绘画" class="headerlink" title="彩陶装饰绘画"></a>彩陶装饰绘画</h3><h3 id="壁画、地画与岩画"><a href="#壁画、地画与岩画" class="headerlink" title="壁画、地画与岩画"></a>壁画、地画与岩画</h3><h2 id="新石器时代的工艺与建筑"><a href="#新石器时代的工艺与建筑" class="headerlink" title="新石器时代的工艺与建筑"></a>新石器时代的工艺与建筑</h2><h3 id="工艺"><a href="#工艺" class="headerlink" title="工艺"></a>工艺</h3><h3 id="建筑"><a href="#建筑" class="headerlink" title="建筑"></a>建筑</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;石器时代？？&lt;/p&gt;
+&lt;p&gt;考古学把文明出现前的称为石器时代。&lt;/p&gt;
+&lt;p&gt;分为旧石器时代和新石器时代&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;旧石器时代：在这个时代中主要以打制石器为人类的生产工具；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新石器时代：主要以磨制石器和陶器为人类的生产
+    
+    </summary>
+    
+      <category term="未分类" scheme="https://blog.iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>释怀</title>
+    <link href="https://blog.iiitoo.com/2016/12/30/%E9%87%8A%E6%80%80/"/>
+    <id>https://blog.iiitoo.com/2016/12/30/释怀/</id>
+    <published>2016-12-29T17:32:28.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>释怀！慢慢就会明白自己有多么强大或者是伟大，不会因为你的别人告诉你的假象而痛哭流涕了。听着音乐想着过去那些“伟大的傻事”，就知道了这便是你，一个幸福的过去，迎来的是光明的未来！<br>这便是，唯物辩证量变到质变一个积累吧！终于在这个夜里我开始了对这个世界的抱怨结束了。曾经仇恨的你让我走向那一面。用日记来记载这个即将过去的美丽瞬间，这就是成功！[耶][耶][耶]</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;释怀！慢慢就会明白自己有多么强大或者是伟大，不会因为你的别人告诉你的假象而痛哭流涕了。听着音乐想着过去那些“伟大的傻事”，就知道了这便是你，一个幸福的过去，迎来的是光明的未来！&lt;br&gt;这便是，唯物辩证量变到质变一个积累吧！终于在这个夜里我开始了对这个世界的抱怨结束了。曾经仇
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>爱</title>
+    <link href="https://blog.iiitoo.com/2016/12/30/%E7%88%B1/"/>
+    <id>https://blog.iiitoo.com/2016/12/30/爱/</id>
+    <published>2016-12-29T16:07:06.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>此时的卑躬屈膝，完美的诠释可怕的未来。这是存在者存在的唯一价值。爱是什么？爱是对过往挫折的释怀，对复仇的抛弃，对妒忌的打压，对情欲的控制，用真实来揭穿欺骗，用美来装饰丑陋。这是多么艰辛痛苦的转变，一个十分漫长的过程，怎是懦弱所拥有的品质？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此时的卑躬屈膝，完美的诠释可怕的未来。这是存在者存在的唯一价值。爱是什么？爱是对过往挫折的释怀，对复仇的抛弃，对妒忌的打压，对情欲的控制，用真实来揭穿欺骗，用美来装饰丑陋。这是多么艰辛痛苦的转变，一个十分漫长的过程，怎是懦弱所拥有的品质？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>睡前呐喊</title>
+    <link href="https://blog.iiitoo.com/2016/12/27/%E7%9D%A1%E5%89%8D%E5%91%90%E5%96%8A/"/>
+    <id>https://blog.iiitoo.com/2016/12/27/睡前呐喊/</id>
+    <published>2016-12-26T16:18:14.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>乱七八糟的事情早就占据了脑子的每一个地方，还有什么机会来看书做学问。那么多的精华根本不可能在你的脑子里。脑子中的都是垃圾。因为不肖，被世界中的毒物所惑。因为无力，让意志消亡。灵魂早就在远方，不可能因为你爷请来的高明巫师招来。<br>    心灵遗失了，用颓废来装扮存在。无知的无聊让原本就有的问题来掩饰肤浅。用受虐满足不能满足。<br>   躺下了，何时才能起来，起来了，总想着躺下。“躺下吧，躺下吧！这样好像才能完成所有的任务”。<br>    快乐在转眼间变成了自嘲，如同那一道美丽的闪电。每时每刻都要无视那爬满了身子又哄不走的蛆虫，若是看到了，那就得作呕很长时间。<br>   抖抖身子，张望周围和远方。那是多么搞笑的一个身姿？自以为在胸怀天下，实则是目距为零的发呆。你听不见的嗷嗷嚎叫，你看不见的左劈右坎，这些愤恨的行为所产生的痛，只有抱在被窝里曲着身体稍微有所减轻。睡着了，让你遗忘，遗忘是最好的妙药。<br>睡了！睡了！听说睡着了就是死去。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;乱七八糟的事情早就占据了脑子的每一个地方，还有什么机会来看书做学问。那么多的精华根本不可能在你的脑子里。脑子中的都是垃圾。因为不肖，被世界中的毒物所惑。因为无力，让意志消亡。灵魂早就在远方，不可能因为你爷请来的高明巫师招来。&lt;br&gt;    心灵遗失了，用颓废来装扮存在。无知
+    
+    </summary>
+    
+      <category term="异变" scheme="https://blog.iiitoo.com/categories/%E5%BC%82%E5%8F%98/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>控制</title>
+    <link href="https://blog.iiitoo.com/2016/12/24/%E6%8E%A7%E5%88%B6/"/>
+    <id>https://blog.iiitoo.com/2016/12/24/控制/</id>
+    <published>2016-12-23T18:22:05.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>真的不能控制，本身就是一个可怕的事实！妄想狂+可怜虫！<br>要做的是把它丢到那些不知所措的漩涡中被吞噬，一次一次的尝试失败。最终会得最深的根除。<br>那时是最好的出手时间，这也是妄想，但让目标刻意的变小，这样就对了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;真的不能控制，本身就是一个可怕的事实！妄想狂+可怜虫！&lt;br&gt;要做的是把它丢到那些不知所措的漩涡中被吞噬，一次一次的尝试失败。最终会得最深的根除。&lt;br&gt;那时是最好的出手时间，这也是妄想，但让目标刻意的变小，这样就对了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="小记" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>坏死的基因</title>
+    <link href="https://blog.iiitoo.com/2016/12/01/%E5%9D%8F%E6%AD%BB%E7%9A%84%E5%9F%BA%E5%9B%A0/"/>
+    <id>https://blog.iiitoo.com/2016/12/01/坏死的基因/</id>
+    <published>2016-11-30T18:59:58.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>能做的就是悄悄的聆听<br>也许在那天才有你所要开的花朵<br>没有！<br>这不是什么自然对你的惩罚<br>你只是这棵树坏死的基因<br>至于淘汰<br>也许只是让完美的结果呈现出更灿烂的辉煌<br>你是一只卓越的坏死基因<br>最终让它们为你的卓越欢声雀跃<br>万物为你天生的无能为力而尊重</p>
+<p>点点滴滴<br>只不过是它们沉迷的一个瞬间</p>
+<p>遗忘？<br>哪有可能被遗忘？<br>遗忘的只是那些开花结果的平安<br>还有遗忘掉的是那些瞬间即逝的快乐<br>痛才是深入骨髓的永恒<br>让万物延续<br>让永恒常在</p>
+<p>这就是意义<br>你永远解不透的秘密</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;能做的就是悄悄的聆听&lt;br&gt;也许在那天才有你所要开的花朵&lt;br&gt;没有！&lt;br&gt;这不是什么自然对你的惩罚&lt;br&gt;你只是这棵树坏死的基因&lt;br&gt;至于淘汰&lt;br&gt;也许只是让完美的结果呈现出更灿烂的辉煌&lt;br&gt;你是一只卓越的坏死基因&lt;br&gt;最终让它们为你的卓越欢声雀跃&lt;br&gt;万物为
+    
+    </summary>
+    
+      <category term="小诗" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>缺陷</title>
+    <link href="https://blog.iiitoo.com/2016/12/01/%E7%BC%BA%E9%99%B7/"/>
+    <id>https://blog.iiitoo.com/2016/12/01/缺陷/</id>
+    <published>2016-11-30T18:58:52.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>每个人都有缺陷，但是怎么才能把他正视才是活人之法。欺骗自己已达到欺骗别人，也许把别人骗过去了，然后久而久之，就连自己都骗过去了。世界是让自己诚恳的对待自己，然后对待别人。也许你是一个傻子，自己也需要承认。而这个世界上的人们给我的教育是，不要管，直直的向着前方就行，不要叫苦，这样你才是一个人们心中的强者，这样你才能得到你想得到的不属于你的东西。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每个人都有缺陷，但是怎么才能把他正视才是活人之法。欺骗自己已达到欺骗别人，也许把别人骗过去了，然后久而久之，就连自己都骗过去了。世界是让自己诚恳的对待自己，然后对待别人。也许你是一个傻子，自己也需要承认。而这个世界上的人们给我的教育是，不要管，直直的向着前方就行，不要叫苦，
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>想象在现实中验证—绘画</title>
+    <link href="https://blog.iiitoo.com/2016/11/30/%E6%83%B3%E8%B1%A1%E5%9C%A8%E7%8E%B0%E5%AE%9E%E4%B8%AD%E9%AA%8C%E8%AF%81%E2%80%94%E7%BB%98%E7%94%BB/"/>
+    <id>https://blog.iiitoo.com/2016/11/30/想象在现实中验证—绘画/</id>
+    <published>2016-11-29T16:47:44.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>绘画是一种想象，自己想要的画面，然后通过在画布上的实践让其呈现或不能呈现。<br>   有时或许是自身技术的缺失无法呈现出来；<br>   有时或许是材料的限制无法呈现出来；<br>   那么绘画就是一种想象在现实中验证的过程。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;绘画是一种想象，自己想要的画面，然后通过在画布上的实践让其呈现或不能呈现。&lt;br&gt;   有时或许是自身技术的缺失无法呈现出来；&lt;br&gt;   有时或许是材料的限制无法呈现出来；&lt;br&gt;   那么绘画就是一种想象在现实中验证的过程。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+      <category term="美思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/%E7%BE%8E%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>艺术是--对自然的理解</title>
+    <link href="https://blog.iiitoo.com/2016/11/21/%E8%89%BA%E6%9C%AF%E6%98%AF--%E5%AF%B9%E8%87%AA%E7%84%B6%E7%9A%84%E7%90%86%E8%A7%A3/"/>
+    <id>https://blog.iiitoo.com/2016/11/21/艺术是--对自然的理解/</id>
+    <published>2016-11-21T05:05:13.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个完整的由自然科学的眼睛所呈现出来的图像，这是最原始的给予你的图像。那么我们是怎么对待这些图像的？通过自然科学的眼睛把图像传给大脑就会出错，因为人们完全是因为你基因的组合的不同，生长环境的不同，所得的信息不同，让你的脑子作出的化学反应就会不同。如，你是个色盲，颜色是无法给你信息的。你一直生长在白天，黑夜对你来说是一种完全不准确的幻想。这两个极端的例子，如果把他拉回到正常中来时，人在出现时，他的每一个动作、行为根本就会和别人不同的。那么人，他所认识的自然也是与别人眼中的图像不同的。人类在求真理，那么绘画，他就要描绘它所认识的世界。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个完整的由自然科学的眼睛所呈现出来的图像，这是最原始的给予你的图像。那么我们是怎么对待这些图像的？通过自然科学的眼睛把图像传给大脑就会出错，因为人们完全是因为你基因的组合的不同，生长环境的不同，所得的信息不同，让你的脑子作出的化学反应就会不同。如，你是个色盲，颜色是无法给
+    
+    </summary>
+    
+      <category term="美思" scheme="https://blog.iiitoo.com/categories/%E7%BE%8E%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>人之悲</title>
+    <link href="https://blog.iiitoo.com/2016/11/20/%E4%BA%BA%E4%B9%8B%E6%82%B2/"/>
+    <id>https://blog.iiitoo.com/2016/11/20/人之悲/</id>
+    <published>2016-11-19T18:23:55.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>人的悲哀，自由，被夺走后，身体只剩下那个空壳，没有了向往，只是不断的得到指令，然后执行指令。通过执行指令获得物质来满足欲望，用欲望来消耗物质。心灵早已经被掏空，遇到强敌，只有无助等待着倒下。<br>人之悲哀二，站在指令之上，得到自己的自由。利用它来指挥别人，剥夺别人的自由。好像利用指令夺走了别人的自由，得到了自己的自由。其实是被指令所用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人的悲哀，自由，被夺走后，身体只剩下那个空壳，没有了向往，只是不断的得到指令，然后执行指令。通过执行指令获得物质来满足欲望，用欲望来消耗物质。心灵早已经被掏空，遇到强敌，只有无助等待着倒下。&lt;br&gt;人之悲哀二，站在指令之上，得到自己的自由。利用它来指挥别人，剥夺别人的自由。
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>人之苦·No1</title>
+    <link href="https://blog.iiitoo.com/2016/11/06/%E4%BA%BA%E4%B9%8B%E8%8B%A6%C2%B7No1/"/>
+    <id>https://blog.iiitoo.com/2016/11/06/人之苦·No1/</id>
+    <published>2016-11-05T20:07:57.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>人之苦-所爱的人不按照自己认为对的方式做正确的事！一种权力欲的驱使，让人们觉得爱情或者亲情，给予了他驾驭自己亲人的权利。然后大失所望，重至自我的坍塌。</p>
+<p>正确的方式应该是引导和希望。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人之苦-所爱的人不按照自己认为对的方式做正确的事！一种权力欲的驱使，让人们觉得爱情或者亲情，给予了他驾驭自己亲人的权利。然后大失所望，重至自我的坍塌。&lt;/p&gt;
+&lt;p&gt;正确的方式应该是引导和希望。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>不要把你善良的交给卑鄙无耻</title>
+    <link href="https://blog.iiitoo.com/2016/11/06/%E4%B8%8D%E8%A6%81%E6%8A%8A%E4%BD%A0%E5%96%84%E8%89%AF%E7%9A%84%E4%BA%A4%E7%BB%99%E5%8D%91%E9%84%99%E6%97%A0%E8%80%BB/"/>
+    <id>https://blog.iiitoo.com/2016/11/06/不要把你善良的交给卑鄙无耻/</id>
+    <published>2016-11-05T19:28:15.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>也许现在生活在自由当中，每个人的所做都是应当的。那么不能因为自由把自己的善良和正义交给混在自由中卑鄙无耻。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;自由为保护他的孩子，一定不会把它的不好的孩子和好孩子分开。他总是有一套自己的说辞，也有很多道理。对于我们要尊重自由这位母亲。但不能因为尊重，把自己的善良交给卑鄙和无耻。</p>
+<p>人们可以保持沉默，但不能为此而认为人们就此被无耻所战胜。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;也许现在生活在自由当中，每个人的所做都是应当的。那么不能因为自由把自己的善良和正义交给混在自由中卑鄙无耻。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;自由为保护他的孩子，一定不会把它的不好的孩子和好孩子分开。他总是有一套自己的说辞，也有很多道理。对
+    
+    </summary>
+    
+      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>油画教程：如何用乳胶制作油画底子</title>
+    <link href="https://blog.iiitoo.com/2016/11/01/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B9%B3%E8%83%B6%E5%88%B6%E4%BD%9C%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90/"/>
+    <id>https://blog.iiitoo.com/2016/11/01/如何用乳胶制作油画底子/</id>
+    <published>2016-11-01T09:18:26.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
+<p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
+<p>乳胶制作油画底子<br>油画教程：如何用乳胶制作油画底子</p>
+<p>乳胶有植物树脂乳胶和合成树脂乳胶两类。以水作溶剂，干后胶膜有弹性且透明，是制作画布底子的合格材料。目前商店出售的白乳胶属合成树脂乳胶——乙烯胶。最适宜作绘画材料的白乳胶为聚醋酸乙烯乳液，这种胶浓度高，干后胶膜光亮，透明度高，有韧性，不开裂。<br>乳胶的质量对于画布底子至关重要。胶底干后，用手在画布背面按一下，若有开裂声，说明乳胶质量不好。购买乳胶时，应打开盒盖察看其浓度，浓度越高越好，兑水的乳胶不易保存。若盒盖的边缘有干透的乳胶皮，检查其透明度和柔韧性，坚硬易断者不能使用。</p>
+<p>乳胶制作油画底子步骤<br>油画教程：如何用乳胶制作油画底子</p>
+<p>使用乳胶做底子的常见方法有：<br>一、若画幅较小，用刮刀将未兑水的乳胶在画布上刮两遍即可使用。或者先用兑水的胶液刷一遍，略干后再刮一遍纯乳胶。<br>二、先用兑水较多的稀薄胶液涂第一遍，干后多加胶少兑水（以能在画布上拖动刷子为准）涂第二遍。涂第三遍之前用细砂纸将布面打磨一遍，清除掉凸起的线头。这样涂刷四五遍即可。反复涂刷胶液是为了减少画布的松弛度。但用胶不能过多，只要确认布孔全都填充为准。用胶过多会影响画布着色。<br>三、粗纹理画布不能单纯刮胶，必须在涂刷第二遍胶液时加入大白粉或立德粉，水、胶、粉的比例约等量。用同等比例的胶粉液刷第三遍。其间用砂纸对表面稍作修整。最后用稀释过的胶再涂一至二遍。无论粗纹理画布、中密度画布还是细纹理画布，都可以用上述方法来做白色底子。在做白色底子时，专业画家习惯于将大白粉与钛白粉按等量混合使用。因为大白粉易于画布吸收（填孔），钛白粉能提高明度。</p>
+<p>涂胶液的工具一般为宽板刷，上下或左右刷到边，不要用力过大。除板刷外，画家常使用刮板（装修工具）来刮胶。刮板有塑料和金属二种，在涂胶粉混合底料时，使用不同的工具会产生不同的效果。刮出来的底子较平滑，而刷更能体现画布的纹理特质。<br>为了长久保存，一般认为绷装在内框上的画布四周应涂上胶液。但胶干后，四周的画布会粘在木框上，不利于拆卸，因此不主张在四周刷胶。</p>
+<p>以上就是关于油画教程：如何用乳胶制作油画底子的全部内容，感兴趣的朋友请继续关注我爱画画网。</p>
+<p>转自：<a href="http://www.woaihuahua.com/jiaocheng/youhua/5366.html" target="_blank" rel="external">http://www.woaihuahua.com/jiaocheng/youhua/5366.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。&lt;/p&gt;
+&lt;p&gt;油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个
+    
+    </summary>
+    
+      <category term="油画技法" scheme="https://blog.iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>油画底子制作-转</title>
+    <link href="https://blog.iiitoo.com/2016/11/01/%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90%E5%88%B6%E4%BD%9C-%E8%BD%AC/"/>
+    <id>https://blog.iiitoo.com/2016/11/01/油画底子制作-转/</id>
+    <published>2016-11-01T05:31:13.000Z</published>
+    <updated>2017-04-30T16:38:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<embed src="http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">]]></content>
+    
+    <summary type="html">
+    
+      &lt;embed src=&quot;http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align
+    
+    </summary>
+    
+      <category term="油画技法" scheme="https://blog.iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+</feed>
