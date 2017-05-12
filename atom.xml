@@ -4,9 +4,9 @@
   <subtitle>iiitoo有一个写笔记的东西</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.iiitoo.com/"/>
+  <link href="https://iiitoo.com/"/>
   <updated>2017-05-03T14:51:56.000Z</updated>
-  <id>https://blog.iiitoo.com/</id>
+  <id>https://iiitoo.com/</id>
   
   <author>
     <name>iiitoo</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Cactus Dark 说明</title>
-    <link href="https://blog.iiitoo.com/2017/05/04/README/"/>
-    <id>https://blog.iiitoo.com/2017/05/04/README/</id>
+    <link href="https://iiitoo.com/2017/05/04/README/"/>
+    <id>https://iiitoo.com/2017/05/04/README/</id>
     <published>2017-05-03T16:01:00.000Z</published>
     <updated>2017-05-03T14:51:56.000Z</updated>
     
@@ -95,15 +95,15 @@
     
     </summary>
     
-      <category term="网建随记" scheme="https://blog.iiitoo.com/categories/%E7%BD%91%E5%BB%BA%E9%9A%8F%E8%AE%B0/"/>
+      <category term="网建随记" scheme="https://iiitoo.com/categories/%E7%BD%91%E5%BB%BA%E9%9A%8F%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>关于我</title>
-    <link href="https://blog.iiitoo.com/2017/05/02/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
-    <id>https://blog.iiitoo.com/2017/05/02/关于我/</id>
+    <link href="https://iiitoo.com/2017/05/02/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>https://iiitoo.com/2017/05/02/关于我/</id>
     <published>2017-05-02T03:39:41.000Z</published>
     <updated>2017-05-03T14:30:27.000Z</updated>
     
@@ -121,8 +121,8 @@
   
   <entry>
     <title>加我的微信</title>
-    <link href="https://blog.iiitoo.com/2017/05/01/%E5%8A%A0%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1/"/>
-    <id>https://blog.iiitoo.com/2017/05/01/加我的微信/</id>
+    <link href="https://iiitoo.com/2017/05/01/%E5%8A%A0%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1/"/>
+    <id>https://iiitoo.com/2017/05/01/加我的微信/</id>
     <published>2017-04-30T20:46:26.000Z</published>
     <updated>2017-04-30T21:07:19.000Z</updated>
     
@@ -144,8 +144,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.iiitoo.com/2017/05/01/hello-world/"/>
-    <id>https://blog.iiitoo.com/2017/05/01/hello-world/</id>
+    <link href="https://iiitoo.com/2017/05/01/hello-world/"/>
+    <id>https://iiitoo.com/2017/05/01/hello-world/</id>
     <published>2017-04-30T16:04:47.000Z</published>
     <updated>2017-04-30T16:04:47.000Z</updated>
     
@@ -171,8 +171,8 @@
   
   <entry>
     <title>消费</title>
-    <link href="https://blog.iiitoo.com/2017/04/22/%E6%B6%88%E8%B4%B9/"/>
-    <id>https://blog.iiitoo.com/2017/04/22/消费/</id>
+    <link href="https://iiitoo.com/2017/04/22/%E6%B6%88%E8%B4%B9/"/>
+    <id>https://iiitoo.com/2017/04/22/消费/</id>
     <published>2017-04-21T17:28:56.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -190,15 +190,15 @@
     
     </summary>
     
-      <category term="未分类" scheme="https://blog.iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="未分类" scheme="https://iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>靠的时间已过</title>
-    <link href="https://blog.iiitoo.com/2017/04/22/%E9%9D%A0%E7%9A%84%E6%97%B6%E9%97%B4%E5%B7%B2%E8%BF%87/"/>
-    <id>https://blog.iiitoo.com/2017/04/22/靠的时间已过/</id>
+    <link href="https://iiitoo.com/2017/04/22/%E9%9D%A0%E7%9A%84%E6%97%B6%E9%97%B4%E5%B7%B2%E8%BF%87/"/>
+    <id>https://iiitoo.com/2017/04/22/靠的时间已过/</id>
     <published>2017-04-21T17:05:14.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -215,15 +215,15 @@
     
     </summary>
     
-      <category term="闲谈" scheme="https://blog.iiitoo.com/categories/%E9%97%B2%E8%B0%88/"/>
+      <category term="闲谈" scheme="https://iiitoo.com/categories/%E9%97%B2%E8%B0%88/"/>
     
     
   </entry>
   
   <entry>
     <title>石器时代的美术</title>
-    <link href="https://blog.iiitoo.com/2017/01/21/%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BE%8E%E6%9C%AF/"/>
-    <id>https://blog.iiitoo.com/2017/01/21/石器时代的美术/</id>
+    <link href="https://iiitoo.com/2017/01/21/%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BE%8E%E6%9C%AF/"/>
+    <id>https://iiitoo.com/2017/01/21/石器时代的美术/</id>
     <published>2017-01-21T08:10:50.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -253,15 +253,15 @@
     
     </summary>
     
-      <category term="未分类" scheme="https://blog.iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="未分类" scheme="https://iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>释怀</title>
-    <link href="https://blog.iiitoo.com/2016/12/30/%E9%87%8A%E6%80%80/"/>
-    <id>https://blog.iiitoo.com/2016/12/30/释怀/</id>
+    <link href="https://iiitoo.com/2016/12/30/%E9%87%8A%E6%80%80/"/>
+    <id>https://iiitoo.com/2016/12/30/释怀/</id>
     <published>2016-12-29T17:32:28.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -274,15 +274,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>爱</title>
-    <link href="https://blog.iiitoo.com/2016/12/30/%E7%88%B1/"/>
-    <id>https://blog.iiitoo.com/2016/12/30/爱/</id>
+    <link href="https://iiitoo.com/2016/12/30/%E7%88%B1/"/>
+    <id>https://iiitoo.com/2016/12/30/爱/</id>
     <published>2016-12-29T16:07:06.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -296,15 +296,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>睡前呐喊</title>
-    <link href="https://blog.iiitoo.com/2016/12/27/%E7%9D%A1%E5%89%8D%E5%91%90%E5%96%8A/"/>
-    <id>https://blog.iiitoo.com/2016/12/27/睡前呐喊/</id>
+    <link href="https://iiitoo.com/2016/12/27/%E7%9D%A1%E5%89%8D%E5%91%90%E5%96%8A/"/>
+    <id>https://iiitoo.com/2016/12/27/睡前呐喊/</id>
     <published>2016-12-26T16:18:14.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -317,15 +317,15 @@
     
     </summary>
     
-      <category term="异变" scheme="https://blog.iiitoo.com/categories/%E5%BC%82%E5%8F%98/"/>
+      <category term="异变" scheme="https://iiitoo.com/categories/%E5%BC%82%E5%8F%98/"/>
     
     
   </entry>
   
   <entry>
     <title>控制</title>
-    <link href="https://blog.iiitoo.com/2016/12/24/%E6%8E%A7%E5%88%B6/"/>
-    <id>https://blog.iiitoo.com/2016/12/24/控制/</id>
+    <link href="https://iiitoo.com/2016/12/24/%E6%8E%A7%E5%88%B6/"/>
+    <id>https://iiitoo.com/2016/12/24/控制/</id>
     <published>2016-12-23T18:22:05.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -339,15 +339,15 @@
     
     </summary>
     
-      <category term="小记" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E8%AE%B0/"/>
+      <category term="小记" scheme="https://iiitoo.com/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>坏死的基因</title>
-    <link href="https://blog.iiitoo.com/2016/12/01/%E5%9D%8F%E6%AD%BB%E7%9A%84%E5%9F%BA%E5%9B%A0/"/>
-    <id>https://blog.iiitoo.com/2016/12/01/坏死的基因/</id>
+    <link href="https://iiitoo.com/2016/12/01/%E5%9D%8F%E6%AD%BB%E7%9A%84%E5%9F%BA%E5%9B%A0/"/>
+    <id>https://iiitoo.com/2016/12/01/坏死的基因/</id>
     <published>2016-11-30T18:59:58.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -363,15 +363,15 @@
     
     </summary>
     
-      <category term="小诗" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E8%AF%97/"/>
+      <category term="小诗" scheme="https://iiitoo.com/categories/%E5%B0%8F%E8%AF%97/"/>
     
     
   </entry>
   
   <entry>
     <title>缺陷</title>
-    <link href="https://blog.iiitoo.com/2016/12/01/%E7%BC%BA%E9%99%B7/"/>
-    <id>https://blog.iiitoo.com/2016/12/01/缺陷/</id>
+    <link href="https://iiitoo.com/2016/12/01/%E7%BC%BA%E9%99%B7/"/>
+    <id>https://iiitoo.com/2016/12/01/缺陷/</id>
     <published>2016-11-30T18:58:52.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -384,15 +384,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>想象在现实中验证—绘画</title>
-    <link href="https://blog.iiitoo.com/2016/11/30/%E6%83%B3%E8%B1%A1%E5%9C%A8%E7%8E%B0%E5%AE%9E%E4%B8%AD%E9%AA%8C%E8%AF%81%E2%80%94%E7%BB%98%E7%94%BB/"/>
-    <id>https://blog.iiitoo.com/2016/11/30/想象在现实中验证—绘画/</id>
+    <link href="https://iiitoo.com/2016/11/30/%E6%83%B3%E8%B1%A1%E5%9C%A8%E7%8E%B0%E5%AE%9E%E4%B8%AD%E9%AA%8C%E8%AF%81%E2%80%94%E7%BB%98%E7%94%BB/"/>
+    <id>https://iiitoo.com/2016/11/30/想象在现实中验证—绘画/</id>
     <published>2016-11-29T16:47:44.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -406,17 +406,17 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
-      <category term="美思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/%E7%BE%8E%E6%80%9D/"/>
+      <category term="美思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/%E7%BE%8E%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>艺术是--对自然的理解</title>
-    <link href="https://blog.iiitoo.com/2016/11/21/%E8%89%BA%E6%9C%AF%E6%98%AF--%E5%AF%B9%E8%87%AA%E7%84%B6%E7%9A%84%E7%90%86%E8%A7%A3/"/>
-    <id>https://blog.iiitoo.com/2016/11/21/艺术是--对自然的理解/</id>
+    <link href="https://iiitoo.com/2016/11/21/%E8%89%BA%E6%9C%AF%E6%98%AF--%E5%AF%B9%E8%87%AA%E7%84%B6%E7%9A%84%E7%90%86%E8%A7%A3/"/>
+    <id>https://iiitoo.com/2016/11/21/艺术是--对自然的理解/</id>
     <published>2016-11-21T05:05:13.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -429,15 +429,15 @@
     
     </summary>
     
-      <category term="美思" scheme="https://blog.iiitoo.com/categories/%E7%BE%8E%E6%80%9D/"/>
+      <category term="美思" scheme="https://iiitoo.com/categories/%E7%BE%8E%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>人之悲</title>
-    <link href="https://blog.iiitoo.com/2016/11/20/%E4%BA%BA%E4%B9%8B%E6%82%B2/"/>
-    <id>https://blog.iiitoo.com/2016/11/20/人之悲/</id>
+    <link href="https://iiitoo.com/2016/11/20/%E4%BA%BA%E4%B9%8B%E6%82%B2/"/>
+    <id>https://iiitoo.com/2016/11/20/人之悲/</id>
     <published>2016-11-19T18:23:55.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -450,15 +450,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>人之苦·No1</title>
-    <link href="https://blog.iiitoo.com/2016/11/06/%E4%BA%BA%E4%B9%8B%E8%8B%A6%C2%B7No1/"/>
-    <id>https://blog.iiitoo.com/2016/11/06/人之苦·No1/</id>
+    <link href="https://iiitoo.com/2016/11/06/%E4%BA%BA%E4%B9%8B%E8%8B%A6%C2%B7No1/"/>
+    <id>https://iiitoo.com/2016/11/06/人之苦·No1/</id>
     <published>2016-11-05T20:07:57.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -474,15 +474,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>不要把你善良的交给卑鄙无耻</title>
-    <link href="https://blog.iiitoo.com/2016/11/06/%E4%B8%8D%E8%A6%81%E6%8A%8A%E4%BD%A0%E5%96%84%E8%89%AF%E7%9A%84%E4%BA%A4%E7%BB%99%E5%8D%91%E9%84%99%E6%97%A0%E8%80%BB/"/>
-    <id>https://blog.iiitoo.com/2016/11/06/不要把你善良的交给卑鄙无耻/</id>
+    <link href="https://iiitoo.com/2016/11/06/%E4%B8%8D%E8%A6%81%E6%8A%8A%E4%BD%A0%E5%96%84%E8%89%AF%E7%9A%84%E4%BA%A4%E7%BB%99%E5%8D%91%E9%84%99%E6%97%A0%E8%80%BB/"/>
+    <id>https://iiitoo.com/2016/11/06/不要把你善良的交给卑鄙无耻/</id>
     <published>2016-11-05T19:28:15.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -498,15 +498,15 @@
     
     </summary>
     
-      <category term="小思" scheme="https://blog.iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
     
   </entry>
   
   <entry>
     <title>油画教程：如何用乳胶制作油画底子</title>
-    <link href="https://blog.iiitoo.com/2016/11/01/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B9%B3%E8%83%B6%E5%88%B6%E4%BD%9C%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90/"/>
-    <id>https://blog.iiitoo.com/2016/11/01/如何用乳胶制作油画底子/</id>
+    <link href="https://iiitoo.com/2016/11/01/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B9%B3%E8%83%B6%E5%88%B6%E4%BD%9C%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90/"/>
+    <id>https://iiitoo.com/2016/11/01/如何用乳胶制作油画底子/</id>
     <published>2016-11-01T09:18:26.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -528,15 +528,15 @@
     
     </summary>
     
-      <category term="油画技法" scheme="https://blog.iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+      <category term="油画技法" scheme="https://iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
     
     
   </entry>
   
   <entry>
     <title>油画底子制作-转</title>
-    <link href="https://blog.iiitoo.com/2016/11/01/%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90%E5%88%B6%E4%BD%9C-%E8%BD%AC/"/>
-    <id>https://blog.iiitoo.com/2016/11/01/油画底子制作-转/</id>
+    <link href="https://iiitoo.com/2016/11/01/%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90%E5%88%B6%E4%BD%9C-%E8%BD%AC/"/>
+    <id>https://iiitoo.com/2016/11/01/油画底子制作-转/</id>
     <published>2016-11-01T05:31:13.000Z</published>
     <updated>2017-04-30T16:38:10.000Z</updated>
     
@@ -548,7 +548,7 @@
     
     </summary>
     
-      <category term="油画技法" scheme="https://blog.iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+      <category term="油画技法" scheme="https://iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
     
     
   </entry>
