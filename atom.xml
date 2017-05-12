@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://iiitoo.com/"/>
-  <updated>2017-05-03T14:51:56.000Z</updated>
+  <updated>2017-05-12T22:20:13.000Z</updated>
   <id>https://iiitoo.com/</id>
   
   <author>
@@ -16,11 +16,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://iiitoo.com/2017/05/08/hello-world/"/>
+    <id>https://iiitoo.com/2017/05/08/hello-world/</id>
+    <published>2017-05-07T22:26:49.000Z</published>
+    <updated>2017-05-12T22:20:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Cactus Dark 说明</title>
     <link href="https://iiitoo.com/2017/05/04/README/"/>
     <id>https://iiitoo.com/2017/05/04/README/</id>
     <published>2017-05-03T16:01:00.000Z</published>
-    <updated>2017-05-03T14:51:56.000Z</updated>
+    <updated>2017-05-12T22:18:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Cactus-Dark"><a href="#Cactus-Dark" class="headerlink" title="Cactus Dark"></a>Cactus Dark</h1><p>A responsive, dark and simple <a href="http://hexo.io" target="_blank" rel="external">Hexo</a> theme for a personal website.</p>
 <p>:cactus: <a href="https://probberechts.github.io/cactus-dark/" target="_blank" rel="external">Demo</a></p>
@@ -95,27 +124,10 @@
     
     </summary>
     
-      <category term="网建随记" scheme="https://iiitoo.com/categories/%E7%BD%91%E5%BB%BA%E9%9A%8F%E8%AE%B0/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>关于我</title>
-    <link href="https://iiitoo.com/2017/05/02/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
-    <id>https://iiitoo.com/2017/05/02/关于我/</id>
-    <published>2017-05-02T03:39:41.000Z</published>
-    <updated>2017-05-03T14:30:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="我"><a href="#我" class="headerlink" title="我"></a>我</h2><p>我就叫个张毅<br>我很随意<br>邋遢<br>无聊<br>无趣<br>只要是我周围女士喜欢的我都不喜欢，所有！🙃🙃女孩子们都不喜欢我。男士呢？我不搞基，但是这个世界除了女人就是男人，时间久了，就会有那么一些“基”味！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;我&quot;&gt;&lt;a href=&quot;#我&quot; class=&quot;headerlink&quot; title=&quot;我&quot;&gt;&lt;/a&gt;我&lt;/h2&gt;&lt;p&gt;我就叫个张毅&lt;br&gt;我很随意&lt;br&gt;邋遢&lt;br&gt;无聊&lt;br&gt;无趣&lt;br&gt;只要是我周围女士喜欢的我都不喜欢，所有！🙃🙃女孩子们都不喜欢我。男士呢？
-    
-    </summary>
-    
+      <category term="网建随记" scheme="https://iiitoo.com/tags/%E7%BD%91%E5%BB%BA%E9%9A%8F%E8%AE%B0/"/>
     
   </entry>
   
@@ -124,7 +136,7 @@
     <link href="https://iiitoo.com/2017/05/01/%E5%8A%A0%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1/"/>
     <id>https://iiitoo.com/2017/05/01/加我的微信/</id>
     <published>2017-04-30T20:46:26.000Z</published>
-    <updated>2017-04-30T21:07:19.000Z</updated>
+    <updated>2017-05-12T22:04:11.000Z</updated>
     
     <content type="html"><![CDATA[<pre><code>这是我的个人微信，扫一下！就加上了！
 </code></pre><p><img src="http://ww4.sinaimg.cn/large/006tNc79ly1ff5e6tmxrxj30iq0owwg3.jpg" alt=""></p>
@@ -139,33 +151,10 @@
     
     </summary>
     
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://iiitoo.com/2017/05/01/hello-world/"/>
-    <id>https://iiitoo.com/2017/05/01/hello-world/</id>
-    <published>2017-04-30T16:04:47.000Z</published>
-    <updated>2017-04-30T16:04:47.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="推广" scheme="https://iiitoo.com/tags/%E6%8E%A8%E5%B9%BF/"/>
     
   </entry>
   
@@ -174,7 +163,7 @@
     <link href="https://iiitoo.com/2017/04/22/%E6%B6%88%E8%B4%B9/"/>
     <id>https://iiitoo.com/2017/04/22/消费/</id>
     <published>2017-04-21T17:28:56.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:26:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>小黄爸妈挣得钱给小黄上了学，后来上高中上大学都是小黄爸妈贡小黄上的。</p>
 <p>小黄毕业了，小黄爸妈总是说，小黄花了我们好多钱。哎吆！把我们花的怕怕的了，这个娃娃怎么这么能花钱。</p>
@@ -190,8 +179,10 @@
     
     </summary>
     
-      <category term="未分类" scheme="https://iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -200,7 +191,7 @@
     <link href="https://iiitoo.com/2017/04/22/%E9%9D%A0%E7%9A%84%E6%97%B6%E9%97%B4%E5%B7%B2%E8%BF%87/"/>
     <id>https://iiitoo.com/2017/04/22/靠的时间已过/</id>
     <published>2017-04-21T17:05:14.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:05:35.000Z</updated>
     
     <content type="html"><![CDATA[<p>实实的30岁了！我是多么不希望它的出现，我是多么讨厌这个数字出现在我的生日里，因为我用了三十年等待着那个靠的的人，有的人口口声声在别人跟前说我在靠他，但是谁知道那是不是借口呢！所以，等了三十年了，也没有等到，那就不要等了。</p>
 <p>也许，从此以后我的起步低到我害怕的地步，但是我已经30了，我应该面对；也许，和别人比起来我在社会中就是一个傻逼，我会蠢到连我自己都害怕的地步，但是我已三十，我应该让自己变化，最少也是掩饰一下我的愚蠢；又可能有很多害怕的东西，我还不是要去面对，还是那句话，我已三十。</p>
@@ -215,8 +206,10 @@
     
     </summary>
     
-      <category term="闲谈" scheme="https://iiitoo.com/categories/%E9%97%B2%E8%B0%88/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="闲谈" scheme="https://iiitoo.com/tags/%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
@@ -225,7 +218,7 @@
     <link href="https://iiitoo.com/2017/01/21/%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BE%8E%E6%9C%AF/"/>
     <id>https://iiitoo.com/2017/01/21/石器时代的美术/</id>
     <published>2017-01-21T08:10:50.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:13:51.000Z</updated>
     
     <content type="html"><![CDATA[<p>石器时代？？</p>
 <p>考古学把文明出现前的称为石器时代。</p>
@@ -253,7 +246,7 @@
     
     </summary>
     
-      <category term="未分类" scheme="https://iiitoo.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
     
   </entry>
@@ -263,7 +256,7 @@
     <link href="https://iiitoo.com/2016/12/30/%E9%87%8A%E6%80%80/"/>
     <id>https://iiitoo.com/2016/12/30/释怀/</id>
     <published>2016-12-29T17:32:28.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:15:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>释怀！慢慢就会明白自己有多么强大或者是伟大，不会因为你的别人告诉你的假象而痛哭流涕了。听着音乐想着过去那些“伟大的傻事”，就知道了这便是你，一个幸福的过去，迎来的是光明的未来！<br>这便是，唯物辩证量变到质变一个积累吧！终于在这个夜里我开始了对这个世界的抱怨结束了。曾经仇恨的你让我走向那一面。用日记来记载这个即将过去的美丽瞬间，这就是成功！[耶][耶][耶]</p>
 ]]></content>
@@ -274,8 +267,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -284,7 +279,7 @@
     <link href="https://iiitoo.com/2016/12/30/%E7%88%B1/"/>
     <id>https://iiitoo.com/2016/12/30/爱/</id>
     <published>2016-12-29T16:07:06.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T21:43:17.000Z</updated>
     
     <content type="html"><![CDATA[<p>此时的卑躬屈膝，完美的诠释可怕的未来。这是存在者存在的唯一价值。爱是什么？爱是对过往挫折的释怀，对复仇的抛弃，对妒忌的打压，对情欲的控制，用真实来揭穿欺骗，用美来装饰丑陋。这是多么艰辛痛苦的转变，一个十分漫长的过程，怎是懦弱所拥有的品质？</p>
 ]]></content>
@@ -298,6 +293,8 @@
     
       <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
     
+      <category term="blog" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/blog/"/>
+    
     
   </entry>
   
@@ -306,7 +303,7 @@
     <link href="https://iiitoo.com/2016/12/27/%E7%9D%A1%E5%89%8D%E5%91%90%E5%96%8A/"/>
     <id>https://iiitoo.com/2016/12/27/睡前呐喊/</id>
     <published>2016-12-26T16:18:14.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:16:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>乱七八糟的事情早就占据了脑子的每一个地方，还有什么机会来看书做学问。那么多的精华根本不可能在你的脑子里。脑子中的都是垃圾。因为不肖，被世界中的毒物所惑。因为无力，让意志消亡。灵魂早就在远方，不可能因为你爷请来的高明巫师招来。<br>    心灵遗失了，用颓废来装扮存在。无知的无聊让原本就有的问题来掩饰肤浅。用受虐满足不能满足。<br>   躺下了，何时才能起来，起来了，总想着躺下。“躺下吧，躺下吧！这样好像才能完成所有的任务”。<br>    快乐在转眼间变成了自嘲，如同那一道美丽的闪电。每时每刻都要无视那爬满了身子又哄不走的蛆虫，若是看到了，那就得作呕很长时间。<br>   抖抖身子，张望周围和远方。那是多么搞笑的一个身姿？自以为在胸怀天下，实则是目距为零的发呆。你听不见的嗷嗷嚎叫，你看不见的左劈右坎，这些愤恨的行为所产生的痛，只有抱在被窝里曲着身体稍微有所减轻。睡着了，让你遗忘，遗忘是最好的妙药。<br>睡了！睡了！听说睡着了就是死去。</p>
 ]]></content>
@@ -317,8 +314,10 @@
     
     </summary>
     
-      <category term="异变" scheme="https://iiitoo.com/categories/%E5%BC%82%E5%8F%98/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="异变" scheme="https://iiitoo.com/tags/%E5%BC%82%E5%8F%98/"/>
     
   </entry>
   
@@ -327,7 +326,7 @@
     <link href="https://iiitoo.com/2016/12/24/%E6%8E%A7%E5%88%B6/"/>
     <id>https://iiitoo.com/2016/12/24/控制/</id>
     <published>2016-12-23T18:22:05.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:06:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>真的不能控制，本身就是一个可怕的事实！妄想狂+可怜虫！<br>要做的是把它丢到那些不知所措的漩涡中被吞噬，一次一次的尝试失败。最终会得最深的根除。<br>那时是最好的出手时间，这也是妄想，但让目标刻意的变小，这样就对了。</p>
 ]]></content>
@@ -339,8 +338,10 @@
     
     </summary>
     
-      <category term="小记" scheme="https://iiitoo.com/categories/%E5%B0%8F%E8%AE%B0/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小记" scheme="https://iiitoo.com/tags/%E5%B0%8F%E8%AE%B0/"/>
     
   </entry>
   
@@ -349,7 +350,7 @@
     <link href="https://iiitoo.com/2016/12/01/%E5%9D%8F%E6%AD%BB%E7%9A%84%E5%9F%BA%E5%9B%A0/"/>
     <id>https://iiitoo.com/2016/12/01/坏死的基因/</id>
     <published>2016-11-30T18:59:58.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:00:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>能做的就是悄悄的聆听<br>也许在那天才有你所要开的花朵<br>没有！<br>这不是什么自然对你的惩罚<br>你只是这棵树坏死的基因<br>至于淘汰<br>也许只是让完美的结果呈现出更灿烂的辉煌<br>你是一只卓越的坏死基因<br>最终让它们为你的卓越欢声雀跃<br>万物为你天生的无能为力而尊重</p>
 <p>点点滴滴<br>只不过是它们沉迷的一个瞬间</p>
@@ -363,8 +364,10 @@
     
     </summary>
     
-      <category term="小诗" scheme="https://iiitoo.com/categories/%E5%B0%8F%E8%AF%97/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小诗" scheme="https://iiitoo.com/tags/%E5%B0%8F%E8%AF%97/"/>
     
   </entry>
   
@@ -373,7 +376,7 @@
     <link href="https://iiitoo.com/2016/12/01/%E7%BC%BA%E9%99%B7/"/>
     <id>https://iiitoo.com/2016/12/01/缺陷/</id>
     <published>2016-11-30T18:58:52.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:11:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>每个人都有缺陷，但是怎么才能把他正视才是活人之法。欺骗自己已达到欺骗别人，也许把别人骗过去了，然后久而久之，就连自己都骗过去了。世界是让自己诚恳的对待自己，然后对待别人。也许你是一个傻子，自己也需要承认。而这个世界上的人们给我的教育是，不要管，直直的向着前方就行，不要叫苦，这样你才是一个人们心中的强者，这样你才能得到你想得到的不属于你的东西。</p>
 ]]></content>
@@ -384,8 +387,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -394,7 +399,7 @@
     <link href="https://iiitoo.com/2016/11/30/%E6%83%B3%E8%B1%A1%E5%9C%A8%E7%8E%B0%E5%AE%9E%E4%B8%AD%E9%AA%8C%E8%AF%81%E2%80%94%E7%BB%98%E7%94%BB/"/>
     <id>https://iiitoo.com/2016/11/30/想象在现实中验证—绘画/</id>
     <published>2016-11-29T16:47:44.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:27:12.000Z</updated>
     
     <content type="html"><![CDATA[<p>绘画是一种想象，自己想要的画面，然后通过在画布上的实践让其呈现或不能呈现。<br>   有时或许是自身技术的缺失无法呈现出来；<br>   有时或许是材料的限制无法呈现出来；<br>   那么绘画就是一种想象在现实中验证的过程。</p>
 ]]></content>
@@ -406,10 +411,12 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
-      <category term="美思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/%E7%BE%8E%E6%80%9D/"/>
     
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
+    
+      <category term="美思" scheme="https://iiitoo.com/tags/%E7%BE%8E%E6%80%9D/"/>
     
   </entry>
   
@@ -418,7 +425,7 @@
     <link href="https://iiitoo.com/2016/11/21/%E8%89%BA%E6%9C%AF%E6%98%AF--%E5%AF%B9%E8%87%AA%E7%84%B6%E7%9A%84%E7%90%86%E8%A7%A3/"/>
     <id>https://iiitoo.com/2016/11/21/艺术是--对自然的理解/</id>
     <published>2016-11-21T05:05:13.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:24:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>一个完整的由自然科学的眼睛所呈现出来的图像，这是最原始的给予你的图像。那么我们是怎么对待这些图像的？通过自然科学的眼睛把图像传给大脑就会出错，因为人们完全是因为你基因的组合的不同，生长环境的不同，所得的信息不同，让你的脑子作出的化学反应就会不同。如，你是个色盲，颜色是无法给你信息的。你一直生长在白天，黑夜对你来说是一种完全不准确的幻想。这两个极端的例子，如果把他拉回到正常中来时，人在出现时，他的每一个动作、行为根本就会和别人不同的。那么人，他所认识的自然也是与别人眼中的图像不同的。人类在求真理，那么绘画，他就要描绘它所认识的世界。</p>
 ]]></content>
@@ -429,8 +436,10 @@
     
     </summary>
     
-      <category term="美思" scheme="https://iiitoo.com/categories/%E7%BE%8E%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="美思" scheme="https://iiitoo.com/tags/%E7%BE%8E%E6%80%9D/"/>
     
   </entry>
   
@@ -439,7 +448,7 @@
     <link href="https://iiitoo.com/2016/11/20/%E4%BA%BA%E4%B9%8B%E6%82%B2/"/>
     <id>https://iiitoo.com/2016/11/20/人之悲/</id>
     <published>2016-11-19T18:23:55.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:12:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>人的悲哀，自由，被夺走后，身体只剩下那个空壳，没有了向往，只是不断的得到指令，然后执行指令。通过执行指令获得物质来满足欲望，用欲望来消耗物质。心灵早已经被掏空，遇到强敌，只有无助等待着倒下。<br>人之悲哀二，站在指令之上，得到自己的自由。利用它来指挥别人，剥夺别人的自由。好像利用指令夺走了别人的自由，得到了自己的自由。其实是被指令所用。</p>
 ]]></content>
@@ -450,8 +459,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -460,7 +471,7 @@
     <link href="https://iiitoo.com/2016/11/06/%E4%BA%BA%E4%B9%8B%E8%8B%A6%C2%B7No1/"/>
     <id>https://iiitoo.com/2016/11/06/人之苦·No1/</id>
     <published>2016-11-05T20:07:57.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:12:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>人之苦-所爱的人不按照自己认为对的方式做正确的事！一种权力欲的驱使，让人们觉得爱情或者亲情，给予了他驾驭自己亲人的权利。然后大失所望，重至自我的坍塌。</p>
 <p>正确的方式应该是引导和希望。</p>
@@ -474,8 +485,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -484,7 +497,7 @@
     <link href="https://iiitoo.com/2016/11/06/%E4%B8%8D%E8%A6%81%E6%8A%8A%E4%BD%A0%E5%96%84%E8%89%AF%E7%9A%84%E4%BA%A4%E7%BB%99%E5%8D%91%E9%84%99%E6%97%A0%E8%80%BB/"/>
     <id>https://iiitoo.com/2016/11/06/不要把你善良的交给卑鄙无耻/</id>
     <published>2016-11-05T19:28:15.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T21:56:03.000Z</updated>
     
     <content type="html"><![CDATA[<p>也许现在生活在自由当中，每个人的所做都是应当的。那么不能因为自由把自己的善良和正义交给混在自由中卑鄙无耻。</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;自由为保护他的孩子，一定不会把它的不好的孩子和好孩子分开。他总是有一套自己的说辞，也有很多道理。对于我们要尊重自由这位母亲。但不能因为尊重，把自己的善良交给卑鄙和无耻。</p>
@@ -498,8 +511,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -508,7 +523,7 @@
     <link href="https://iiitoo.com/2016/11/01/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B9%B3%E8%83%B6%E5%88%B6%E4%BD%9C%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90/"/>
     <id>https://iiitoo.com/2016/11/01/如何用乳胶制作油画底子/</id>
     <published>2016-11-01T09:18:26.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:12:55.000Z</updated>
     
     <content type="html"><![CDATA[<p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
 <p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
@@ -528,8 +543,12 @@
     
     </summary>
     
-      <category term="油画技法" scheme="https://iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="绘画" scheme="https://iiitoo.com/tags/%E7%BB%98%E7%94%BB/"/>
+    
+      <category term="油画技法" scheme="https://iiitoo.com/tags/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
     
   </entry>
   
@@ -538,9 +557,10 @@
     <link href="https://iiitoo.com/2016/11/01/%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90%E5%88%B6%E4%BD%9C-%E8%BD%AC/"/>
     <id>https://iiitoo.com/2016/11/01/油画底子制作-转/</id>
     <published>2016-11-01T05:31:13.000Z</published>
-    <updated>2017-04-30T16:38:10.000Z</updated>
+    <updated>2017-05-12T22:23:48.000Z</updated>
     
-    <content type="html"><![CDATA[<embed src="http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">]]></content>
+    <content type="html"><![CDATA[<embed src="http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+]]></content>
     
     <summary type="html">
     
@@ -548,8 +568,35 @@
     
     </summary>
     
-      <category term="油画技法" scheme="https://iiitoo.com/categories/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
+    
+      <category term="绘画" scheme="https://iiitoo.com/tags/%E7%BB%98%E7%94%BB/"/>
+    
+      <category term="油画技法" scheme="https://iiitoo.com/tags/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心与骄傲</title>
+    <link href="https://iiitoo.com/2016/10/11/%E5%BF%83%E4%B8%8E%E9%AA%84%E5%82%B2/"/>
+    <id>https://iiitoo.com/2016/10/11/心与骄傲/</id>
+    <published>2016-10-11T15:36:58.000Z</published>
+    <updated>2017-05-12T22:25:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>小小心<br>在天际的角落<br>播下火种<br>是因为骄傲<br>如飓风<br>让世界变得那么混乱<br>远远的灯如星星<br>并没有像童话里那样闪烁<br>这愤怒的骄傲的心<br>你看你把世界变成了什么<br>委屈的骄傲<br>因为自责留下眼泪<br>又让世界变的又一次不安<br>火种还在慢慢长大<br>骄傲并不伤她们<br>小小心被骄傲惊散<br>孤独的骄傲到处寻找<br>骄傲啊！骄傲？<br>你拥有的唯一不就是孤独吗？<br>为何还在寻找孤独？<br>骄傲啊！骄傲？<br>你还在那里吓逐小小的心.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小小心&lt;br&gt;在天际的角落&lt;br&gt;播下火种&lt;br&gt;是因为骄傲&lt;br&gt;如飓风&lt;br&gt;让世界变得那么混乱&lt;br&gt;远远的灯如星星&lt;br&gt;并没有像童话里那样闪烁&lt;br&gt;这愤怒的骄傲的心&lt;br&gt;你看你把世界变成了什么&lt;br&gt;委屈的骄傲&lt;br&gt;因为自责留下眼泪&lt;br&gt;又让世界变的又一次
+    
+    </summary>
+    
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
+    
+    
+      <category term="小诗" scheme="https://iiitoo.com/tags/%E5%B0%8F%E8%AF%97/"/>
     
   </entry>
   

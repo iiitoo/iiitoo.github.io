@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=zh>
+<html lang=-->
 <head>
     <!-- so meta -->
     <meta charset="utf-8">
@@ -7,6 +7,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="&amp;#160; 转载：Web前端开发-Web前端工程师 » 使用Emmet(前身Zen Coding)加速Web前端开发 Emmet插件以前被称作为Zen Coding，是一个文本编辑器的插件，它可以帮助您快速编写HTML和CSS代码，从而加速Web前端开发。早在2009年，Sergey Chikuyonok写过一篇文章，提出编写HTML和CSS的新方法。这一革命性的插件指的就是Zen Coding">
+<meta name="keywords" content="网建随记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Emmet(前身Zen Coding)加速Web前端开发">
 <meta property="og:url" content="https://iiitoo.com/2014/11/28/使用Emmet(前身Zen Coding)加速Web前端开发/index.html">
@@ -32,7 +33,7 @@
 <meta property="og:image" content="http://www.zjgsq.com/wp-content/uploads/2013/12/element-18.gif">
 <meta property="og:image" content="http://www.zjgsq.com/wp-content/uploads/2013/12/element-19.gif">
 <meta property="og:image" content="http://www.zjgsq.com/wp-content/uploads/2013/12/element-20.gif">
-<meta property="og:updated_time" content="2017-04-30T16:38:10.000Z">
+<meta property="og:updated_time" content="2017-05-12T22:14:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Emmet(前身Zen Coding)加速Web前端开发">
 <meta name="twitter:description" content="&amp;#160; 转载：Web前端开发-Web前端工程师 » 使用Emmet(前身Zen Coding)加速Web前端开发 Emmet插件以前被称作为Zen Coding，是一个文本编辑器的插件，它可以帮助您快速编写HTML和CSS代码，从而加速Web前端开发。早在2009年，Sergey Chikuyonok写过一篇文章，提出编写HTML和CSS的新方法。这一革命性的插件指的就是Zen Coding">
@@ -71,6 +72,8 @@
         <!-- rss -->
         
         
+        <link rel="alternate" href="/atom.xml" title="iiitoo" type="application/atom+xml" />
+                                                                                                    
 </head>
 
 <body>
@@ -91,7 +94,7 @@
          
           <li><a href="/book/">写本书</a></li>
          
-          <li><a href="/blog/">写博客</a></li>
+          <li><a href="/categories/blog/">写博客</a></li>
          
           <li><a href="/archives/">做什么</a></li>
         
@@ -170,6 +173,11 @@
 
 
       
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/网建随记/">网建随记</a>
+    </div>
+
 
     </div>
   </header>
@@ -179,11 +187,11 @@
     <p>&#160;</p>
 <p>转载：<a href="http://www.zjgsq.com/" target="_blank" rel="external">Web前端开发-Web前端工程师</a> » <a href="http://www.zjgsq.com/1062.html" target="_blank" rel="external">使用Emmet(前身Zen Coding)加速Web前端开发</a></p>
 <p><a href="http://emmet.io/" target="_blank" rel="external">Emmet</a>插件以前被称作为Zen Coding，是一个文本编辑器的插件，它可以帮助您快速编写HTML和CSS代码，从而加速Web前端开发。早在2009年，Sergey Chikuyonok写过一篇文章，提出编写HTML和CSS的新方法。这一革命性的插件指的就是Zen Coding，经过很多开发者多年来的努力与帮助，现在已达到了一个新的水平。也就是今天所说的Emme插件。<br>在这篇文章中，我们将要学习如何使用Emmet语法来生成HTML和CSS代码。</p>
-<h4 id="安装Emmet插件"><a href="#安装Emmet插件" class="headerlink" title="安装Emmet插件"></a>安装Emmet插件</h4><p> </p><p>Emmet只是文本编辑器一个插件，要想让他发挥应用的功能，就得将其安装到你喜欢的文本编辑器中。到目前为止，很多流行的文本编辑器都支持Emmet插件，也就是说很多流行的文本编辑器都可以安装这款插件。 </p><p>点击下面的链接，按照说明文档可以给对应的文本编辑器安装Emmet插件： </p>
+<h4 id="安装Emmet插件"><a href="#安装Emmet插件" class="headerlink" title="安装Emmet插件"></a>安装Emmet插件</h4><p> </p><p>Emmet只是文本编辑器一个插件，要想让他发挥应用的功能，就得将其安装到你喜欢的文本编辑器中。到目前为止，很多流行的文本编辑器都支持Emmet插件，也就是说很多流行的文本编辑器都可以安装这款插件。 </p><p>点击下面的链接，按照说明文档可以给对应的文本编辑器安装Emmet插件：</p>
 <ul>
-<li><a href="https://github.com/sergeche/emmet-sublime#readme" target="_blank" rel="external">Sublime Text</a> </li><li><a href="https://github.com/emmetio/emmet-eclipse#readme" target="_blank" rel="external">Eclipse</a> </li><li><a href="https://github.com/emmetio/Emmet.tmplugin#readme" target="_blank" rel="external">TextMate</a> </li><li><a href="https://github.com/emmetio/Emmet.codaplugin#readme" target="_blank" rel="external">Coda</a> </li><li><a href="https://github.com/emmetio/Emmet.sugar#readme" target="_blank" rel="external">Espresso</a> </li><li><a href="https://github.com/sergeche/emmet.chocmixin#readme" target="_blank" rel="external">Chocolat</a> </li><li><a href="https://github.com/emmetio/npp#readme" target="_blank" rel="external">Notepad++</a> </li><li><a href="https://github.com/emmetio/brackets-emmet#readme" target="_blank" rel="external">Brackets</a> </li><li><a href="https://github.com/emmetio/netbeans#readme" target="_blank" rel="external">NetBeans</a> </li><li><a href="https://github.com/emmetio/dreamweaver#readme" target="_blank" rel="external">Adobe Dreamweaver</a> </li>
+<li><a href="https://github.com/sergeche/emmet-sublime#readme" target="_blank" rel="external">Sublime Text</a> </li><li><a href="https://github.com/emmetio/emmet-eclipse#readme" target="_blank" rel="external">Eclipse</a> </li><li><a href="https://github.com/emmetio/Emmet.tmplugin#readme" target="_blank" rel="external">TextMate</a> </li><li><a href="https://github.com/emmetio/Emmet.codaplugin#readme" target="_blank" rel="external">Coda</a> </li><li><a href="https://github.com/emmetio/Emmet.sugar#readme" target="_blank" rel="external">Espresso</a> </li><li><a href="https://github.com/sergeche/emmet.chocmixin#readme" target="_blank" rel="external">Chocolat</a> </li><li><a href="https://github.com/emmetio/npp#readme" target="_blank" rel="external">Notepad++</a> </li><li><a href="https://github.com/emmetio/brackets-emmet#readme" target="_blank" rel="external">Brackets</a> </li><li><a href="https://github.com/emmetio/netbeans#readme" target="_blank" rel="external">NetBeans</a> </li><li><a href="https://github.com/emmetio/dreamweaver#readme" target="_blank" rel="external">Adobe Dreamweaver</a></li>
 </ul>
-<h4 id="它是如何工作的？"><a href="#它是如何工作的？" class="headerlink" title="它是如何工作的？"></a>它是如何工作的？</h4><p> </p><p>在Web前端开发中，我们不得不面对一个残酷的现实。在写HTML代码时需要一定的时间，因为我们要花大把的时间写HTML标签，属性，引号等；同样在编写CSS时，我们要写很多的属性、属性值，大括号和分号等。当然，大多数的文本编辑器都或多或少带有代码自动提示功能，在开发之时，帮了很大的忙，但仍然需要人工输入很多代码。而Emmet插件，集成了很多缩写，大家在开发时只需要输入简单的缩写，按tab键或ctrl+E键就能扩展出所需的代码片段。 </p>
+<h4 id="它是如何工作的？"><a href="#它是如何工作的？" class="headerlink" title="它是如何工作的？"></a>它是如何工作的？</h4><p> </p><p>在Web前端开发中，我们不得不面对一个残酷的现实。在写HTML代码时需要一定的时间，因为我们要花大把的时间写HTML标签，属性，引号等；同样在编写CSS时，我们要写很多的属性、属性值，大括号和分号等。当然，大多数的文本编辑器都或多或少带有代码自动提示功能，在开发之时，帮了很大的忙，但仍然需要人工输入很多代码。而Emmet插件，集成了很多缩写，大家在开发时只需要输入简单的缩写，按tab键或ctrl+E键就能扩展出所需的代码片段。</p>
 <h4 id="Emmet和HTML"><a href="#Emmet和HTML" class="headerlink" title="Emmet和HTML"></a>Emmet和HTML</h4><p> </p><p>假定你已经为您自己喜欢的文本编辑器成功的安装好了Emmet插件，接下来我们来简单的看看如何使用Emmet帮助您快速编写您的HTML标签。 </p><p>Emmet使用定义的缩写来生成元素。他的语法和CSS的选择器非常类似：<pre>ul&gt;li&gt;img+p</pre></p>
 <p></p><p>一旦你写好缩写之后，按一下tab键(我使用的是Sublime Text编辑器)就能生成你所请求的代码。上面的例子将会产生下面的代码：<pre>&lt;ul&gt;<br>    &lt;li&gt;<br>        &lt;img src=”” alt=””&gt;<br>        &lt;p&gt;&lt;/p&gt;<br>    &lt;/li&gt;<br>&lt;/ul&gt;</pre></p>
 <p></p><p><a href="http://www.zjgsq.com/wp-content/uploads/2013/12/element-1.gif" target="_blank" rel="external"><img src="http://www.zjgsq.com/wp-content/uploads/2013/12/element-1.gif" alt="element-1"></a><br>接下来，让我们来深入一点了解Emmet语法，来看看如何通过一些更复杂的缩写创建HTML标签。<br><strong>创建初始文档</strong><br>任何一个HTML文件，都具有一些默认的文档结构。使用Emmet来创建需要的时间不到一秒。只要输入!或html:5，然后点击tab键，你就会看到一个HTML5的doctype默认标签。</p>
@@ -228,7 +236,7 @@
          
           <li><a href="/book/">写本书</a></li>
          
-          <li><a href="/blog/">写博客</a></li>
+          <li><a href="/categories/blog/">写博客</a></li>
          
           <li><a href="/archives/">做什么</a></li>
         
@@ -295,7 +303,7 @@
          
           <li><a href="/book/">写本书</a></li>
          
-          <li><a href="/blog/">写博客</a></li>
+          <li><a href="/categories/blog/">写博客</a></li>
          
           <li><a href="/archives/">做什么</a></li>
         
