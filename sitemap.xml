@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iiitoo.com/reading/index.html</loc>
+    
+    <lastmod>2017-05-15T19:56:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://iiitoo.com/about/index.html</loc>
     
     <lastmod>2017-05-15T19:37:39.000Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://iiitoo.com/Learning/index.html</loc>
     
     <lastmod>2017-05-15T08:08:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/reading/index.html</loc>
-    
-    <lastmod>2017-05-15T07:54:30.000Z</lastmod>
     
   </url>
   
