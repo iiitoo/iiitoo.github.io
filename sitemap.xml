@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iiitoo.com/2017/05/15/nodejs-learn/</loc>
+    
+    <lastmod>2017-05-15T20:44:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2017/05/15/ejs%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2017-05-15T20:42:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/Learning/index.html</loc>
+    
+    <lastmod>2017-05-15T20:39:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/book/index.html</loc>
+    
+    <lastmod>2017-05-15T20:38:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/doit/index.html</loc>
+    
+    <lastmod>2017-05-15T20:18:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://iiitoo.com/reading/index.html</loc>
     
     <lastmod>2017-05-15T19:56:10.000Z</lastmod>
@@ -44,37 +79,9 @@
   </url>
   
   <url>
-    <loc>https://iiitoo.com/2017/05/15/ejs%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2017-05-15T10:27:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://iiitoo.com/2017/05/15/%E6%97%A0%E6%A0%87%E9%A2%98/</loc>
     
     <lastmod>2017-05-15T08:37:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/2017/05/15/nodejs-learn/</loc>
-    
-    <lastmod>2017-05-15T08:16:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/Learning/index.html</loc>
-    
-    <lastmod>2017-05-15T08:08:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/book/index.html</loc>
-    
-    <lastmod>2017-05-15T07:51:03.000Z</lastmod>
     
   </url>
   
