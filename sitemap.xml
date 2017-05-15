@@ -2,9 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iiitoo.com/about/index.html</loc>
+    
+    <lastmod>2017-05-15T19:37:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2016/05/15/%E7%88%B1%E6%83%85/</loc>
+    
+    <lastmod>2017-05-15T17:17:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2016/12/30/%E7%88%B1/</loc>
+    
+    <lastmod>2017-05-15T17:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2013/10/25/%E7%88%B1%E5%9B%BD/</loc>
+    
+    <lastmod>2017-05-15T17:17:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/categories/index.html</loc>
+    
+    <lastmod>2017-05-15T16:56:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2017/05/15/ejs%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2017-05-15T10:27:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2017/05/15/%E6%97%A0%E6%A0%87%E9%A2%98/</loc>
+    
+    <lastmod>2017-05-15T08:37:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/2017/05/15/nodejs-learn/</loc>
+    
+    <lastmod>2017-05-15T08:16:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/Learning/index.html</loc>
+    
+    <lastmod>2017-05-15T08:08:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iiitoo.com/reading/index.html</loc>
+    
+    <lastmod>2017-05-15T07:54:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://iiitoo.com/book/index.html</loc>
     
-    <lastmod>2017-05-14T12:23:18.000Z</lastmod>
+    <lastmod>2017-05-15T07:51:03.000Z</lastmod>
     
   </url>
   
@@ -803,34 +873,6 @@
     <loc>https://iiitoo.com/2016/06/09/%E3%80%8A%E7%8B%82%E4%B9%B1%E3%80%8B%E7%89%87%E6%AE%B52/</loc>
     
     <lastmod>2017-05-12T21:52:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/2013/10/25/%E7%88%B1%E5%9B%BD/</loc>
-    
-    <lastmod>2017-05-12T21:43:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/2016/12/30/%E7%88%B1/</loc>
-    
-    <lastmod>2017-05-12T21:43:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/read/index.html</loc>
-    
-    <lastmod>2017-05-03T13:19:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://iiitoo.com/2016/05/15/%E7%88%B1%E6%83%85/</loc>
-    
-    <lastmod>2017-04-30T16:38:10.000Z</lastmod>
     
   </url>
   

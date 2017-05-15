@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://iiitoo.com/"/>
-  <updated>2017-05-12T22:20:13.000Z</updated>
+  <updated>2017-05-15T08:37:56.000Z</updated>
   <id>https://iiitoo.com/</id>
   
   <author>
@@ -14,6 +14,90 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://iiitoo.com/2017/05/15/%E6%97%A0%E6%A0%87%E9%A2%98/"/>
+    <id>https://iiitoo.com/2017/05/15/无标题/</id>
+    <published>2017-05-15T08:37:56.000Z</published>
+    <updated>2017-05-15T08:37:56.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ejs学习</title>
+    <link href="https://iiitoo.com/2017/05/15/ejs%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://iiitoo.com/2017/05/15/ejs学习/</id>
+    <published>2017-05-15T08:15:11.000Z</published>
+    <updated>2017-05-15T10:27:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="about-内容"><a href="#about-内容" class="headerlink" title="about 内容"></a>about 内容</h2><pre><code>What is EJS?   
+</code></pre><p>什么是ejs？</p>
+<pre><code>&quot;E&quot; is for &quot;effective.&quot; EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It&apos;s just plain JavaScript.
+</code></pre><p>“E”是形容词“有效 灵活”。EJS是一个使用简单的JavaScript生成HTML标记的模板语言。不需要有宗教式的如何组织事情。不需要重塑迭代和控制流。它是一个简单的JavaScript。</p>
+<pre><code>Use plain JavaScript
+</code></pre><p>使用普通的JavaScript</p>
+<pre><code>We love JavaScript. It&apos;s a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+</code></pre><p>我们爱JavaScript！它是一个完全有好的语言。所有模板语言的成长为图灵完备。只是一个中间人和使用js！</p>
+<pre><code>Fast development time
+</code></pre><p>快速的开发时间</p>
+<pre><code>Don&apos;t waste time and attention figuring out arcane new syntax because &apos;elegance&apos; — or how to preprocess your data so it will actually render right.
+</code></pre><p>不需要浪费时间和精力想出新的语法，因为“优雅”或者说怎么处理您的数据所有会正确的渲染。</p>
+<pre><code>Simple syntax
+</code></pre><p>简单的语法</p>
+<pre><code>JavaScript code in simple, straightforward scriptlet tags. Just write JavaScript that emits the HTML you want, and get your shit done.
+</code></pre><p>在scriptlet标签中直接的简单JavaScript代码。只需编写发出你想要的HTML的JavaScript，并完成你的操作。</p>
+<pre><code>Speedy execution
+</code></pre><p>执行速度快</p>
+<pre><code>We all know how fast V8 and the other JavaScript runtimes have gotten. EJS caches the intermediate JS functions for fast execution.
+</code></pre><p>我们都知道V8引擎和JavaScript的运行速度是很快的，而EJS缓存了中级的JS函数就会更快的执行。</p>
+<pre><code>Easy debugging
+</code></pre><p>简单的调试</p>
+<pre><code>It&apos;s easy to debug EJS errors: your errors are plain JavaScript exceptions, with template line-numbers included.
+</code></pre><p>他是简单的调试EJS错误：您的错误是纯JavaScript异常，包含模板行号。</p>
+<pre><code>Active development
+</code></pre><p>积极的开发</p>
+<pre><code>EJS has a large community of active users, and the library is under active development. We&apos;re happy to answer your questions or give you help.
+</code></pre><p>EJS有大量积极活跃的用户社区，和图书馆正在发展。我们很高兴回答您的问题或帮助您。</p>
+<h2 id="Features-功能"><a href="#Features-功能" class="headerlink" title="Features  功能"></a>Features  功能</h2><p>Fast compilation and rendering<br><strong>快速的编译和渲染</strong><br>Simple template tags: &lt;% %&gt;<br> <strong>简单的模板标记：\&lt;% %></strong><br>Custom delimiters (e.g., use &lt;? ?&gt; instead of &lt;% %&gt;)<br><strong>自定义分隔符（如，使用\&lt;? ?> 代替\&lt;% %>）</strong><br>Includes <strong> 包含 </strong><br>Both server JS and browser support <strong>服务器端js和浏览器端js都支持</strong><br>Static caching of intermediate JavaScript<strong>JavaScript静态缓存</strong><br>Static caching of templates<strong>静态缓存模板</strong><br>Complies with the Express view system<strong>符合Express视图系统</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;about-内容&quot;&gt;&lt;a href=&quot;#about-内容&quot; class=&quot;headerlink&quot; title=&quot;about 内容&quot;&gt;&lt;/a&gt;about 内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;What is EJS?   
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;什么是ejs
+    
+    </summary>
+    
+      <category term="learning" scheme="https://iiitoo.com/categories/learning/"/>
+    
+    
+      <category term="ejs学习" scheme="https://iiitoo.com/tags/ejs%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs-学习</title>
+    <link href="https://iiitoo.com/2017/05/15/nodejs-learn/"/>
+    <id>https://iiitoo.com/2017/05/15/nodejs-learn/</id>
+    <published>2017-05-15T08:09:53.000Z</published>
+    <updated>2017-05-15T08:16:26.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="learning" scheme="https://iiitoo.com/categories/learning/"/>
+    
+    
+      <category term="nodejs学习" scheme="https://iiitoo.com/tags/nodejs%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -279,7 +363,7 @@
     <link href="https://iiitoo.com/2016/12/30/%E7%88%B1/"/>
     <id>https://iiitoo.com/2016/12/30/爱/</id>
     <published>2016-12-29T16:07:06.000Z</published>
-    <updated>2017-05-12T21:43:17.000Z</updated>
+    <updated>2017-05-15T17:17:51.000Z</updated>
     
     <content type="html"><![CDATA[<p>此时的卑躬屈膝，完美的诠释可怕的未来。这是存在者存在的唯一价值。爱是什么？爱是对过往挫折的释怀，对复仇的抛弃，对妒忌的打压，对情欲的控制，用真实来揭穿欺骗，用美来装饰丑陋。这是多么艰辛痛苦的转变，一个十分漫长的过程，怎是懦弱所拥有的品质？</p>
 ]]></content>
@@ -291,10 +375,10 @@
     
     </summary>
     
-      <category term="小思" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/"/>
+      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
     
-      <category term="blog" scheme="https://iiitoo.com/categories/%E5%B0%8F%E6%80%9D/blog/"/>
     
+      <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
     
   </entry>
   
@@ -515,88 +599,6 @@
     
     
       <category term="小思" scheme="https://iiitoo.com/tags/%E5%B0%8F%E6%80%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>油画教程：如何用乳胶制作油画底子</title>
-    <link href="https://iiitoo.com/2016/11/01/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B9%B3%E8%83%B6%E5%88%B6%E4%BD%9C%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90/"/>
-    <id>https://iiitoo.com/2016/11/01/如何用乳胶制作油画底子/</id>
-    <published>2016-11-01T09:18:26.000Z</published>
-    <updated>2017-05-12T22:12:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
-<p>油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。</p>
-<p>乳胶制作油画底子<br>油画教程：如何用乳胶制作油画底子</p>
-<p>乳胶有植物树脂乳胶和合成树脂乳胶两类。以水作溶剂，干后胶膜有弹性且透明，是制作画布底子的合格材料。目前商店出售的白乳胶属合成树脂乳胶——乙烯胶。最适宜作绘画材料的白乳胶为聚醋酸乙烯乳液，这种胶浓度高，干后胶膜光亮，透明度高，有韧性，不开裂。<br>乳胶的质量对于画布底子至关重要。胶底干后，用手在画布背面按一下，若有开裂声，说明乳胶质量不好。购买乳胶时，应打开盒盖察看其浓度，浓度越高越好，兑水的乳胶不易保存。若盒盖的边缘有干透的乳胶皮，检查其透明度和柔韧性，坚硬易断者不能使用。</p>
-<p>乳胶制作油画底子步骤<br>油画教程：如何用乳胶制作油画底子</p>
-<p>使用乳胶做底子的常见方法有：<br>一、若画幅较小，用刮刀将未兑水的乳胶在画布上刮两遍即可使用。或者先用兑水的胶液刷一遍，略干后再刮一遍纯乳胶。<br>二、先用兑水较多的稀薄胶液涂第一遍，干后多加胶少兑水（以能在画布上拖动刷子为准）涂第二遍。涂第三遍之前用细砂纸将布面打磨一遍，清除掉凸起的线头。这样涂刷四五遍即可。反复涂刷胶液是为了减少画布的松弛度。但用胶不能过多，只要确认布孔全都填充为准。用胶过多会影响画布着色。<br>三、粗纹理画布不能单纯刮胶，必须在涂刷第二遍胶液时加入大白粉或立德粉，水、胶、粉的比例约等量。用同等比例的胶粉液刷第三遍。其间用砂纸对表面稍作修整。最后用稀释过的胶再涂一至二遍。无论粗纹理画布、中密度画布还是细纹理画布，都可以用上述方法来做白色底子。在做白色底子时，专业画家习惯于将大白粉与钛白粉按等量混合使用。因为大白粉易于画布吸收（填孔），钛白粉能提高明度。</p>
-<p>涂胶液的工具一般为宽板刷，上下或左右刷到边，不要用力过大。除板刷外，画家常使用刮板（装修工具）来刮胶。刮板有塑料和金属二种，在涂胶粉混合底料时，使用不同的工具会产生不同的效果。刮出来的底子较平滑，而刷更能体现画布的纹理特质。<br>为了长久保存，一般认为绷装在内框上的画布四周应涂上胶液。但胶干后，四周的画布会粘在木框上，不利于拆卸，因此不主张在四周刷胶。</p>
-<p>以上就是关于油画教程：如何用乳胶制作油画底子的全部内容，感兴趣的朋友请继续关注我爱画画网。</p>
-<p>转自：<a href="http://www.woaihuahua.com/jiaocheng/youhua/5366.html" target="_blank" rel="external">http://www.woaihuahua.com/jiaocheng/youhua/5366.html</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个画种。下面来看看油画教程：如何用乳胶制作油画底子。&lt;/p&gt;
-&lt;p&gt;油画是以用快干性的植物油（亚麻仁油、罂粟油、核桃油等）调和颜料，在画布亚麻布，纸板或木板上进行制作的一个
-    
-    </summary>
-    
-      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
-    
-    
-      <category term="绘画" scheme="https://iiitoo.com/tags/%E7%BB%98%E7%94%BB/"/>
-    
-      <category term="油画技法" scheme="https://iiitoo.com/tags/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>油画底子制作-转</title>
-    <link href="https://iiitoo.com/2016/11/01/%E6%B2%B9%E7%94%BB%E5%BA%95%E5%AD%90%E5%88%B6%E4%BD%9C-%E8%BD%AC/"/>
-    <id>https://iiitoo.com/2016/11/01/油画底子制作-转/</id>
-    <published>2016-11-01T05:31:13.000Z</published>
-    <updated>2017-05-12T22:23:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<embed src="http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;embed src=&quot;http://player.youku.com/player.php/sid/XMjA4NTI0ODE2/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align
-    
-    </summary>
-    
-      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
-    
-    
-      <category term="绘画" scheme="https://iiitoo.com/tags/%E7%BB%98%E7%94%BB/"/>
-    
-      <category term="油画技法" scheme="https://iiitoo.com/tags/%E6%B2%B9%E7%94%BB%E6%8A%80%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心与骄傲</title>
-    <link href="https://iiitoo.com/2016/10/11/%E5%BF%83%E4%B8%8E%E9%AA%84%E5%82%B2/"/>
-    <id>https://iiitoo.com/2016/10/11/心与骄傲/</id>
-    <published>2016-10-11T15:36:58.000Z</published>
-    <updated>2017-05-12T22:25:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>小小心<br>在天际的角落<br>播下火种<br>是因为骄傲<br>如飓风<br>让世界变得那么混乱<br>远远的灯如星星<br>并没有像童话里那样闪烁<br>这愤怒的骄傲的心<br>你看你把世界变成了什么<br>委屈的骄傲<br>因为自责留下眼泪<br>又让世界变的又一次不安<br>火种还在慢慢长大<br>骄傲并不伤她们<br>小小心被骄傲惊散<br>孤独的骄傲到处寻找<br>骄傲啊！骄傲？<br>你拥有的唯一不就是孤独吗？<br>为何还在寻找孤独？<br>骄傲啊！骄傲？<br>你还在那里吓逐小小的心.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;小小心&lt;br&gt;在天际的角落&lt;br&gt;播下火种&lt;br&gt;是因为骄傲&lt;br&gt;如飓风&lt;br&gt;让世界变得那么混乱&lt;br&gt;远远的灯如星星&lt;br&gt;并没有像童话里那样闪烁&lt;br&gt;这愤怒的骄傲的心&lt;br&gt;你看你把世界变成了什么&lt;br&gt;委屈的骄傲&lt;br&gt;因为自责留下眼泪&lt;br&gt;又让世界变的又一次
-    
-    </summary>
-    
-      <category term="博客" scheme="https://iiitoo.com/categories/blog/"/>
-    
-    
-      <category term="小诗" scheme="https://iiitoo.com/tags/%E5%B0%8F%E8%AF%97/"/>
     
   </entry>
   

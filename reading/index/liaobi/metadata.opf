@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">264</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d252abed-2d71-4c98-875a-d857f9f7b30b</dc:identifier>
+        <dc:title>了不起的盖茨比</dc:title>
+        <dc:creator opf:file-as="斯科特·菲茨杰拉德 (Francis Scott Fitzgerald)" opf:role="aut">斯科特·菲茨杰拉德 (Francis Scott Fitzgerald)</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.79.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2013-08-31T16:00:00+00:00</dc:date>
+        <dc:publisher>南海出版社</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">B00EK865WK</dc:identifier>
+        <dc:language>zho</dc:language>
+        <meta content="{&quot;斯科特·菲茨杰拉德 (Francis Scott Fitzgerald)&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2017-02-15T08:48:43.979953+00:00" name="calibre:timestamp"/>
+        <meta content="了不起的盖茨比" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="封面" type="cover"/>
+    </guide>
+</package>
